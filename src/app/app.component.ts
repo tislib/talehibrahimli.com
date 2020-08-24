@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {AfterContentInit, Component} from '@angular/core';
 import {Router} from '@angular/router';
 
 @Component({
@@ -6,7 +6,7 @@ import {Router} from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements AfterContentInit {
   title = 'talehibrahimlicom';
 
   constructor(private router: Router) {
@@ -17,4 +17,11 @@ export class AppComponent {
       this.router.navigate([path]);
     }
   }
+
+  ngAfterContentInit(): void {
+    window['matchHeiht']();
+    window['mainScript']();
+  }
+
+
 }

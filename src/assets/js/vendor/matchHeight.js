@@ -8,10 +8,10 @@
     'use strict';
     if (typeof define === 'function' && define.amd) {
         // AMD
-        define(['jquery'], factory);
+        define(['src/assets/template/doks-theme/assets/js/vendor/jquery'], factory);
     } else if (typeof module !== 'undefined' && module.exports) {
         // CommonJS
-        module.exports = factory(require('jquery'));
+        module.exports = factory(require('src/assets/template/doks-theme/assets/js/vendor/jquery'));
     } else {
         // Global
         factory(jQuery);
