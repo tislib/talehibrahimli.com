@@ -1,6 +1,10 @@
 import {AfterContentInit, Component} from '@angular/core';
 import {Router} from '@angular/router';
 
+import * as test1 from 'raw-loader!./blog/test1.html';
+
+console.log(test1);
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
