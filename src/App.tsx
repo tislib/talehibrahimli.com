@@ -5,11 +5,9 @@ import {Footer} from './components/Footer';
 import {AboutPage} from './pages/AboutPage';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {Portfolio} from './pages/Portfolio';
+import {Portfolio} from './pages/portfolio/Portfolio';
+import {PortfolioProjectPage} from './pages/portfolio/PortfolioProjectPage';
 
-import {projects} from './resources';
-
-console.log(projects);
 
 declare function mainScript(): void;
 
@@ -20,6 +18,8 @@ class App extends React.Component<any, any> {
                 <Router>
                     <Header/>
                     <Switch>
+                        <Route path="/portfolio/:name" component={PortfolioProjectPage}>
+                        </Route>
                         <Route path="/portfolio">
                             <Portfolio/>
                         </Route>

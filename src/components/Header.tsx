@@ -7,33 +7,33 @@ export const Header = () => {
             <div className="row">
                 <div className="col-xs-12">
 
-                    <Link to='/'>
-                        <a className="site-header__logo">Taleh Ibrahimi</a>
+                    <Link className="site-header__logo" to='/'>
+                        Taleh Ibrahimi
                     </Link>
 
                     <ul className="site-header__nav hidden-xs">
 
                         <li>
                             <Link to='/'>
-                                <a>About Me</a>
+                                About Me
                             </Link>
                         </li>
 
                         <li>
                             <Link to='/portfolio'>
-                                <a>Portfolio</a>
+                                Portfolio
                             </Link>
                         </li>
 
                         <li>
                             <Link to='/blog'>
-                                <a>Blog</a>
+                                Blog
                             </Link>
                         </li>
 
                         <li>
                             <Link to='/contact'>
-                                <a>Contact</a>
+                                Contact
                             </Link>
                         </li>
 
