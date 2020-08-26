@@ -13,7 +13,7 @@ export const AboutPage = () => {
                         <div className="align-container" data-mh>
                             <div className="align-inner">
                                 <p className="hero-subheader__desc">
-                                    xxI am Java Software Architect with 9 years hands'on experience.
+                                    I am Java Software Architect with 9 years hands'on experience.
                                     <br/>
                                     I love programming, Travelling, Making Coffee, Solving Complex Problems
                                 </p>
@@ -29,6 +29,7 @@ export const AboutPage = () => {
             </div>
 
         </div>
+
         <div className="section">
             <div className="container">
                 <div className="row">
@@ -39,9 +40,14 @@ export const AboutPage = () => {
                         <FontAwesomeIcon icon={faGithub} fixedWidth size='4x'/>
                     </div>
                 </div>
-
             </div>
-
         </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
     </>);
 };

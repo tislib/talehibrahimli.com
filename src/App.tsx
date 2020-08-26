@@ -19,7 +19,6 @@ class App extends React.Component<any, any> {
             <>
                 <Router>
                     <Header/>
-                    <projects.EuniversityProject/>
                     <Switch>
                         <Route path="/portfolio">
                             <Portfolio/>
