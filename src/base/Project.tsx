@@ -6,6 +6,7 @@ export interface ProjectParams extends DynamicComponent {
     name: string;
     title: string;
     content?: React.ComponentElement<any, any>;
+    link?: string;
 }
 
 export function Project(props: ProjectParams) {

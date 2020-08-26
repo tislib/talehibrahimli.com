@@ -1,6 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFacebookF, faInstagram, faWhatsapp, faTelegram, faLinkedin, faSkype, faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faFacebookF, faGithub, faLinkedin, faTelegram} from '@fortawesome/free-brands-svg-icons';
 
 import './AboutPage.scss';
 
@@ -34,10 +34,18 @@ export const AboutPage = () => {
             <div className="container">
                 <div className="row">
                     <div className="content center">
-                        <FontAwesomeIcon icon={faFacebookF} fixedWidth size='4x'/>
-                        <FontAwesomeIcon icon={faLinkedin} fixedWidth size='4x'/>
-                        <FontAwesomeIcon icon={faTelegram} fixedWidth size='4x'/>
-                        <FontAwesomeIcon icon={faGithub} fixedWidth size='4x'/>
+                        <a href='https://www.facebook.com/taleh.ibrahimli' className='social-link'>
+                            <FontAwesomeIcon icon={faFacebookF} fixedWidth size='4x'/>
+                        </a>
+                        <a href='https://www.linkedin.com/in/taleh-ibrahimli-b7511b66' className='social-link'>
+                            <FontAwesomeIcon icon={faLinkedin} fixedWidth size='4x'/>
+                        </a>
+                        <a onClick={() => alert('@TalehIbrahimli')} className='social-link'>
+                            <FontAwesomeIcon icon={faTelegram} fixedWidth size='4x'/>
+                        </a>
+                        <a href='https://github.com/tislib' className='social-link'>
+                            <FontAwesomeIcon icon={faGithub} fixedWidth size='4x'/>
+                        </a>
                     </div>
                 </div>
             </div>
