@@ -1,0 +1,1 @@
+export {EuniversityProject} from './euniversity';

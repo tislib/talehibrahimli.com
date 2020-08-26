@@ -13,7 +13,7 @@ export const AboutPage = () => {
                         <div className="align-container" data-mh>
                             <div className="align-inner">
                                 <p className="hero-subheader__desc">
-                                    I am Java Software Architect with 9 years hands'on experience.
+                                    xxI am Java Software Architect with 9 years hands'on experience.
                                     <br/>
                                     I love programming, Travelling, Making Coffee, Solving Complex Problems
                                 </p>

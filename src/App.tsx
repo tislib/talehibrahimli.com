@@ -7,9 +7,9 @@ import {AboutPage} from './pages/AboutPage';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Portfolio} from './pages/Portfolio';
 
-// import {EuniversityProject} from 'resources';
+import {projects} from './resources';
 
-// console.log(EuniversityProject);
+console.log(projects);
 
 declare function mainScript(): void;
 
@@ -19,6 +19,7 @@ class App extends React.Component<any, any> {
             <>
                 <Router>
                     <Header/>
+                    <projects.EuniversityProject/>
                     <Switch>
                         <Route path="/portfolio">
                             <Portfolio/>
