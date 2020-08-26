@@ -25,6 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build; cp -rf build/* docs/",
+    "deploy": "npm run build; git add . -A; git commit -m 'deploy'; git push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
