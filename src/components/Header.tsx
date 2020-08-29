@@ -8,7 +8,7 @@ export const Header = () => {
         <div className="row">
           <div className="col-xs-12">
             <Link className="site-header__logo" to="/">
-              Taleh Ibrahimi
+              Taleh Ibrahimli
             </Link>
 
             <ul className="site-header__nav hidden-xs">
