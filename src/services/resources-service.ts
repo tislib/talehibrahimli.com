@@ -7,7 +7,7 @@ export function getResource(name: string) {
 }
 
 function normalizeResource(item: any) {
-    if (item.prototype) {
+    if (item.prototype && new item().render) {
         return new item().render().props;
     } else {
         return item().props;
