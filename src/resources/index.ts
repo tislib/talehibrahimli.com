@@ -1,3 +1,3 @@
-import * as projects_ from './projects';
+import * as projects_ from "./projects";
 
-export const projects = projects_
+export const projects = projects_;

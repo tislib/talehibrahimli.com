@@ -1,17 +1,17 @@
-import * as resources from '../resources';
-import {DynamicComponent} from '../base/dynamic-component';
+import * as resources from "../resources";
+import { DynamicComponent } from "../base/dynamic-component";
 
 export function getResource(name: string) {
-    // @ts-ignore
-    return resources[name];
+  // @ts-ignore
+  return resources[name];
 }
 
 function normalizeResource(item: any) {
-    if (item.prototype && new item().render) {
-        return new item().render().props;
-    } else {
-        return item().props;
-    }
+  if (item.prototype && new item().render) {
+    return new item().render().props;
+  } else {
+    return item().props;
+  }
 }
 
 export function getResources<T extends DynamicComponent>(items: any): T[] {
