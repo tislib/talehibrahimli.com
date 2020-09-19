@@ -31,7 +31,7 @@ pipeline {
             steps {
                 sh "eval \$(cat /var/lib/jenkins/.docker/env.sh); docker kill talehibrahimlicom || true"
                 sh "eval \$(cat /var/lib/jenkins/.docker/env.sh); docker rm talehibrahimlicom || true"
-                sh "eval \$(cat /var/lib/jenkins/.docker/env.sh); docker run -d --name talehibrahimlicom -p 8201:8080 hub.tisserv.net/talehibrahimlicom:v${env.BUILD_NUMBER}"
+                sh "eval \$(cat /var/lib/jenkins/.docker/env.sh); docker run -d --name talehibrahimlicom -p 8201:80 hub.tisserv.net/talehibrahimlicom:v${env.BUILD_NUMBER}"
             }
         }
     }
