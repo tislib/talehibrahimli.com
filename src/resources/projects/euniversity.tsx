@@ -5,7 +5,7 @@ export const EuniversityProject = () => {
   return (
     <Project
       name="electron-university"
-      title="Electron University"
+      title="Electron University1"
       content={<h1>asdsadsd</h1>}
       order={1}
       skillsUsed="Java, Spring, Spring Security, GWT, GXT, EXTJS, IText, phantomjs, postgresql"
