@@ -147,12 +147,12 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Blog"
 weight = 2
-url = "posts/"
+url = "https://tislib.blog"
 
 [[languages.en.menu.main]]
 name = "Projects"
 weight = 3
-url = "https://luizdepra.dev"
+url = "/projects"
 
 [[languages.en.menu.main]]
 name = "Contact me"
