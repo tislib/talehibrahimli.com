@@ -38,27 +38,6 @@ maxSeeAlsoItems = 5
 # Enable Twemoji
 enableTwemoji = false
 
-# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-[params.googleTagManager]
-id = "GTM-5L2NRFH"
-
-# If you want to implement a Content-Security-Policy, add this section
-#[params.csp]
-#childsrc = ["'self'"]
-#fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
-#formaction = ["'self'"]
-#framesrc = ["'self'"]
-#imgsrc = ["'self'"]
-#objectsrc = ["'none'"]
-#stylesrc = [
-#  "'self'",
-#  "'unsafe-inline'",
-#  "https://fonts.googleapis.com/",
-#  "https://cdn.jsdelivr.net/"
-#]
-#scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
-#prefetchsrc = ["'self'"]
-
 [taxonomies]
 category = "categories"
 series = "series"
@@ -121,3 +100,7 @@ url = "/projects"
 name = "Contact me"
 weight = 5
 url = "contact/"
+
+
+[params.yandexMetrica]
+id = "74420314"
