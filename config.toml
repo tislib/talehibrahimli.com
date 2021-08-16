@@ -13,7 +13,7 @@ disqusShortname = "talehibrahimli"
 author = "Taleh Ibrahimli"
 description = "Taleh Ibrahimli's personal website"
 keywords = "blog,developer,personal"
-info = "Java Software Architect"
+info = "Project Manager & Java Software Architect"
 avatarURL = "images/avatar.jpg"
 
 #footerContent = "Powered by Taleh Ibrahimli"
@@ -30,7 +30,7 @@ rtl = false
 # "auto" (use preference set by browser)
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
-colorScheme = "auto"
+colorScheme = "dark"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
 # Series see also post count
@@ -88,8 +88,7 @@ url = "resume"
 [[languages.en.menu.main]]
 name = "Blog"
 weight = 3
-url = "https://tislib.blog"
-post = "_blank"
+url = "/blog"
 
 [[languages.en.menu.main]]
 name = "Ideas"
