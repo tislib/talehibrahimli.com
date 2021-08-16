@@ -9,9 +9,8 @@ resources:
   src: "featured-image.jpeg"
   page:
   theme: "wide"
-  tags: ["asynchronous-programming", "messaging", "rabbit-mq", "spring-webflux", "spring-boot"]
-  categories: ["posts", "asynchronous-programming"]
-  summary: "Simple Notification service where users can be notified by group"
+  tags: ["interview-questions", "learning"]
+  categories: ["blogs", "java", "interview-questions"]
   toc:
   auto: false
 ---
