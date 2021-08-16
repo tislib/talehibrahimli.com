@@ -92,9 +92,9 @@ url = "https://tislib.blog"
 post = "_blank"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "Ideas"
 weight = 4
-url = "/projects"
+url = "/ideas"
 
 [[languages.en.menu.main]]
 name = "Contact me"
