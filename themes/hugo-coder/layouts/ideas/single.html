@@ -31,17 +31,20 @@
         </div>
       </header>
 
+      <strong>Table of contents</strong>
+      {{ .TableOfContents }}
+
       <div>
         {{ if .Params.featuredImage }}
           <img src='{{ .Params.featuredImage }}' alt="Featured image"/>
         {{ end }}
+
         {{ .Content }}
       </div>
 
-
       <footer>
         {{ partial "posts/series.html" . }}
-        {{ partial "posts/disqus.html" . }}
+<!--        {{ partial "posts/disqus.html" . }}-->
         {{ partial "posts/commento.html" . }}
         {{ partial "posts/utterances.html" . }}
       </footer>
