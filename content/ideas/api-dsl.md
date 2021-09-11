@@ -19,22 +19,20 @@ We have Kotlin Language for that reason, Kotlin is powerful choice both as a lan
 ```
 resources {
     resource {
-      name = "authors"
+        name = "authors"
 
-      properties {
         property {
-          name = "firstName",
-          type = String
+            name = "firstName",
+            type = String
         }
         property {
-          name = "lastName",
-          type = String
+            name = "lastName",
+            type = String
         }
         property {
-          name = "bookCount",
-          type = Number
+            name = "bookCount",
+            type = Number
         }
-      }  
     }
 }
 ```
@@ -86,6 +84,24 @@ resources {
 ```
 
 ## How It works
+You define declarative resource design and app is compiling the file and starts webserver
+
+## Definition
+### Resources
+Resources are root level definition. It is a wrapper definition for resource.
+```
+resources {
+  resource {
+    ...resource definition...
+  }
+  resource {
+    ...another resource definition...
+  }
+}
+```
+resources only accepts resource sub definition
+### Resource
+
 
 ## Open questions
 1. Should I remove properties and relations wrappers?
