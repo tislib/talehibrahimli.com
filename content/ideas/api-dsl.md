@@ -3,6 +3,7 @@ title: API DSL
 draft: true
 date: 2021-09-10T00:00:00
 ---
+
 ## Overview
 The purpose of this concept is to build a framework which will be easy to build rest apis and easy for simple crud operations. 
 And also we will support custom functionalities here.
@@ -193,3 +194,47 @@ resources {
 }
 ```
 
+## Api Presentation Layer
+Currently, supported presentations are jsonapi and grpc
+
+```
+api {
+    presentation {
+        jsonapi {
+        
+        }
+    }
+}
+```
+
+## Authentication
+Oauth2 and custom authentication is supported
+
+```
+security {
+    authentication {
+        oauth2 {
+            authorization server
+            ...
+        }
+    }
+}
+```
+
+## Api Versioning
+
+## Data Versioning
+
+## Data Schema version control and data migration
+
+## Operations with Relations
+
+## Projection
+
+## Audit
+
+## Filtering
+
+## Advanced Search
+
+## Extensions
