@@ -1,0 +1,15 @@
+<style>
+  .notion-frame {
+    width: 100%;
+    height: 100vh;
+    border: 0;
+  }
+</style>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+<iframe onload="resizeIframe(this)"
+        class="notion-frame"
+        src="https://notion-page-to-html-api.vercel.app/html?id={{$.Param "notionId"}}"></iframe>
