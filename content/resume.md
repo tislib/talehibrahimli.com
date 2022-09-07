@@ -4,7 +4,7 @@ draft: false
 ---
 
 ## Professional Summary
-Experienced Senior Software Architect with 10 years hands on experience. Passionate on learning new things
+Experienced Senior Software Developer & Architect with 11 years hands on experience. Passionate on learning new things
 
 ## Skills
 * Expert on Java and Spring Framework
@@ -17,8 +17,11 @@ Experienced Senior Software Architect with 10 years hands on experience. Passion
 * Advanced skills on Reactive Programming and Designing Non blocking systems
 
 ## Work & Experience
+### [Billing Platform](https://billingplatform.com)
+*Team Leader & Project Manager* (2021 April - present)
+
 ### Goldenpay LLC
-*Team Leader & Chief Software Architect* (2020 May - present)
+*Team Leader & Chief Software Architect* (2020 May - 2021 May)
 
 Responsibilities:
 1. Designing Microservices for Payment Gateway Project which was in monolith architecture
