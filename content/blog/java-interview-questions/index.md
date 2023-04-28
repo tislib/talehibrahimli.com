@@ -30,3 +30,9 @@ This interview questions are the main questions which picked by me.
 6. What is equals and hashcode for and what is their usage on Hashmap
 7. Complexity of Hashmap
 8. What is hash collision
+### Multi-Threading
+1. What is the difference between Thread and Runnable?
+2. What is volatile and synchronized keywords for?
+3. What is the difference between synchronized and Lock?
+4. What is race condition?
+5. What is deadlock, live-lock and thread starvation?
