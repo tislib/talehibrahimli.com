@@ -101,5 +101,5 @@ weight = 5
 url = "contact/"
 
 
-[params.yandexMetrica]
-id = "74420314"
+[params.googleTagManager]
+id = "G-0K38Q35G12"
