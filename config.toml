@@ -62,7 +62,7 @@ target = "_blank"
 name = "LinkedIn"
 icon = "fa fa-linkedin"
 weight = 4
-url = "https://www.linkedin.com/in/talehibrahimli/"
+url = "https://www.linkedin.com/in/talehibrahimli"
 target = "_blank"
 
 [[params.social]]
@@ -76,8 +76,8 @@ target = "_blank"
 languageName = "English"
 
 [[languages.en.menu.main]]
-name = "About"
-weight = 1
+name = "Personality"
+weight = 5
 url = "about/"
 
 [[languages.en.menu.main]]
@@ -96,8 +96,13 @@ weight = 4
 url = "/ideas"
 
 [[languages.en.menu.main]]
+name = "Projects"
+weight = 1
+url = "projects/"
+
+[[languages.en.menu.main]]
 name = "Contact me"
-weight = 5
+weight = 6
 url = "contact/"
 
 
