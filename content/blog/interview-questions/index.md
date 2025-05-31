@@ -1,5 +1,5 @@
 ---
-title: "Java Interview Questions"
+title: "Interview Topics"
 date: 2021-08-16T00:00:00
 lastmod: 2021-08-16T00:00:00
 slug: "java-interview-questions"
@@ -9,16 +9,52 @@ resources:
   src: "featured-image.jpeg"
 page:
   theme: "wide"
-tags: ["interview-questions", "learning"]
-categories: ["blogs", "java", "interview-questions"]
+tags: ["interview", "learning"]
+categories: ["blogs", "java", "golang", "interview"]
 toc:
   auto: false
 ---
-## Introduction
-This interview questions are the main questions which picked by me.
+# Programming Languages
+
+## Java
+### OOP [J, M]
+1. What is the difference between abstract class and interface?
+2. What is the use-case difference between abstract class and interface?
+### Collections API
+1. What data structures you know in Collections API [J, M]
+2. What is the differences between ArrayList and LinkedList [J, M]
+3. Complexity (https://www.bigocheatsheet.com)
+   * Complexity of operations on ArrayList and LinkedList
+   * Complexity of Hashmap
+4. Difference Between Set and List [J, M]
+5. How Hashmap works internally
+   * Hash Collision
+6. What is equals and hashcode for and what is their usage on Hashmap [M]
+### Multi-Threading
+1. What is the difference between Thread and Runnable? [J, M]
+2. What are volatile and synchronized keywords for?
+3. What is the difference between synchronized and Lock?
+4. What is Semaphore for
+5. What is the difference between Reentrant-lock and ReadWrite-lock?
+6. What is race condition?
+7. What is deadlock, live-lock and thread starvation?
+8. Atomic operations
+   * Atomic Integer vs synchronized
+   * Concurrent Map vs synchronized
+### Memory management and Garbage collection
+1. How garbage collections work
+2. Heap vs Stack
+3. Generations and Segments
+4. How garbage collection cleans memory.
+5. Stop the world
+6. How Grid-based new garbage collections work
+7. How to adjust memory usage of java (xmx, xms, etc.)
+8. How to identify memory problems, how to analyze memory leak issues or performance problems caused by memory issues
+
+### Spring Boot
+
 
 ## Golang
-
 ### Parallelism and Concurrency
 1. Explain the difference between goroutines and traditional threads
 2. Let's say, you want to implement an api named batch-download where list of urls will be sent in request, and you need to download all urls and return the result to server.
@@ -66,6 +102,9 @@ This interview questions are the main questions which picked by me.
 2. How you can implement rate limiting in golang?
 3. Aws services.
 
+# General
 ### Docker & Containerization
 1. How you can containerize your golang application?
 2. How you can deploy your golang application to kubernetes?
+
+### CI/CD pipelines
