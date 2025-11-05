@@ -36,39 +36,58 @@ main.resume {
   }
 
   header {
-    text-align: center;
-  }
+    display: flex;
+    padding: 5px 20px 0;
 
-  .full-name {
-    margin-top: 43px;
-    display: inline-block;
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 800;
+    .profile {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      .full-name {
+        margin-top: 13px;
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      .headline {
+        color: rgb(15, 82, 186);
+        margin-top: 13px;
+        font-size: 15px;
+        font-weight: 800;
+      }
+    }
+
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid black;
+      padding-left: 10px;
+      width: 300px;
+
+      .social-item {
+        font-size: 15px;
+      }
+
+      .social-item i {
+        margin-right: 5px;
+        color: rgb(15, 82, 186);
+      }
+
+      a, span {
+        color: black;
+      }
+
+      .social-item-separator {
+        margin: 0 2px;
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
   }
 
   .controls {
     position: absolute;
-  }
-
-  .social-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 45px 0;
-  }
-
-  .social-item {
-    font-size: 15px;
-  }
-
-  .social-item i {
-    margin-right: 5px;
-  }
-
-  .social-item-separator {
-    margin: 0 2px;
-    font-size: 20px;
-    font-weight: 400;
   }
 
   section {
@@ -76,7 +95,7 @@ main.resume {
   }
 
   .section-header {
-    color: rgb(98, 129, 156);
+    color: rgb(15, 82, 186);
     font-size: 18px;
     font-weight: bold;
   }
