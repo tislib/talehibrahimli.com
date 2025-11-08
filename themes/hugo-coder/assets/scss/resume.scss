@@ -6,8 +6,6 @@
 @media print {
   html, body {
     width: 210mm;
-    margin-top: 10mm;
-    margin-bottom: 10mm;
   }
 
   main.resume {
@@ -18,11 +16,6 @@
   .resume-download-link, .navigation, .footer, .float-container {
     display: none;
   }
-}
-
-.page {
-  width: 210mm;
-  max-height: 297mm;
 }
 
 main.resume {
@@ -52,15 +45,15 @@ main.resume {
 
       .full-name {
         margin-top: 13px;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 800;
       }
 
       .headline {
         color: rgb(15, 82, 186);
         margin-top: 13px;
-        font-size: 15px;
-        font-weight: 800;
+        font-size: 13px;
+        font-weight: 600;
       }
     }
 
@@ -69,7 +62,8 @@ main.resume {
       flex-direction: column;
       border-left: 1px solid black;
       padding-left: 10px;
-      width: 300px;
+      width: 230px;
+      line-height: 18px;
 
       .social-item {
         font-size: 15px;
