@@ -157,28 +157,6 @@ main.resume {
   }
 }
 
-.education-line {
-  font-size: 13px;
-  font-weight: bold;
-  display: flex;
-
-  > span {
-    flex: 1;
-  }
-
-  span:first-child {
-    text-align: left;
-    flex: 3;
-  }
-
-  span:last-child {
-    text-align: right;
-  }
-
-  span:nth-child(2) {
-    text-align: center;
-  }
-}
 
 .resume-download-link {
   position: absolute;
