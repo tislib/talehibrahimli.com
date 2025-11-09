@@ -16,6 +16,15 @@
   .resume-download-link, .navigation, .footer, .float-container {
     display: none;
   }
+
+  .page-break {
+    break-after: page; /* Recommended, modern */
+    page-break-after: always; /* Legacy, for compatibility */
+  }
+
+  .page-begin {
+    margin-top: 15px!important;
+  }
 }
 
 main.resume {
@@ -51,7 +60,7 @@ main.resume {
 
       .headline {
         color: rgb(15, 82, 186);
-        margin-top: 13px;
+        margin-top: 20px;
         font-size: 13px;
         font-weight: 600;
       }
@@ -67,6 +76,7 @@ main.resume {
 
       .social-item {
         font-size: 15px;
+        margin-top: 3px;
       }
 
       .social-item i {
@@ -93,6 +103,7 @@ main.resume {
 
   section {
     padding: 5px 20px 0;
+    margin-bottom: 10px;
   }
 
   .section-header {
@@ -162,4 +173,12 @@ main.resume {
   position: absolute;
   left: 10px;
   top: 100px
+}
+
+.experience-item {
+  margin-bottom: 10px !important;
+}
+
+.location {
+  margin-top: 10px;
 }
