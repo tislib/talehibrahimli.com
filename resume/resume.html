@@ -1,0 +1,394 @@
+{{ define "head" }}
+{{ $cssOpts := (dict "targetPath" "css/resume.css" "enableSourceMap" true ) }}
+{{ $styles := resources.Get "scss/resume.scss" | resources.ExecuteAsTemplate "style.resume.css" . | toCSS $cssOpts }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+<script src="https://kit.fontawesome.com/8573c63d82.js" crossorigin="anonymous"></script>
+{{ end }}
+{{ define "content" }}
+<a class="resume-download-link" target="_blank" href="/taleh_ibrahimli_resume.pdf">Download PDF</a>
+<main class="resume">
+  <header>
+    <div class="profile">
+      <span class="full-name">Taleh Ibrahimli</span>
+      <span class="headline">Staff/Principal Software Engineer · Cloud Platform Architect (AWS, Java/Golang) with AI/LLM experience</span>
+    </div>
+    <div class="social-container">
+          <span class="social-item"><i class="fa-brands fa-linkedin"></i>
+            <a target="_blank"
+               href="https://www.linkedin.com/in/talehibrahimli/">in/talehibrahimli</a>
+          </span>
+      <span class="social-item"><i class="fa-solid fa-mobile"></i>+34600857686</span>
+      <span class="social-item"><i class="fa-solid fa-safari"></i>
+      <a target="_blank" href="https://talehibrahimli.com">talehibrahimli.com</a>
+    </span>
+      <span class="social-item"><i class="fa-solid fa-envelope"></i>
+      contact@talehibrahimli.com
+    </span>
+      <span class="social-item"><i class="fa-brands fa-github"></i>
+      <a target="_blank" href="https://github.com/tislib">github.com/tislib</a>
+    </span>
+      <span class="location">Barcelona, Spain</span>
+    </div>
+  </header>
+  <section>
+    <div class="section-header">
+      <span>Professional Summary</span>
+      <hr/>
+    </div>
+    <div class="section-content">
+      <p>
+        Principal/Lead Software Engineer with 10+ years building large-scale, cloud-native platforms. Deep hands-on
+        experience across AWS—spanning architecture design, scalability, cost optimization, and reliability engineering.
+        Proven track record leading cross-functional teams and driving full lifecycle delivery, from backend and data
+        systems to operations. Expert in Java, Golang, and modern backend design. Recent focus includes exploring AI/LLM
+        solutions, with R&D experience in RAG workflows, lightweight model serving, and evaluation frameworks.
+      </p>
+    </div>
+  </section>
+  <section>
+    <div class="section-header">
+      <span>Skills</span>
+      <hr/>
+    </div>
+    <div class="section-content">
+      <ul>
+        <li>
+          <span class="skill-title">Programming Languages</span>
+          <span class="skill-value">Java (8+ yrs), Go (3+ yrs), TypeScript/JavaScript, Python</span>
+        </li>
+        <li>
+          <span class="skill-title">Backend & Distributed Systems</span>
+          <span class="skill-value">Spring Boot, Spring WebFlux/Reactive (Project Reactor, Netty, RxJava), REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS</span>
+        </li>
+        <li>
+          <span class="skill-title">Cloud Architecture & Platform (AWS)</span>
+          <span class="skill-value">VPC, EC2, ALB/NLB, Lambda, API Gateway, S3/CloudFront, RDS/Aurora, DynamoDB, ECR/ECS/EKS, EventBridge, SQS/SNS, Kinesis, Step Functions, OpenSearch; IaC: Terraform/CDK; Well-Architected, cost optimization, resiliency</span>
+        </li>
+        <li>
+          <span class="skill-title">DevOps & SRE</span>
+          <span class="skill-value">Kubernetes, Docker, Argo CD, Helm, Jenkins, CI/CD, observability (CloudWatch, X-Ray, Prometheus, Grafana, OpenTelemetry), blue/green & canary, incident response</span>
+        </li>
+        <li>
+          <span class="skill-title">Data & Storage</span>
+          <span class="skill-value">PostgreSQL, MySQL, DynamoDB, Redis, OpenSearch/Elasticsearch, Redshift; streaming pipelines; OLTP/OLAP design</span>
+        </li>
+        <li>
+          <span class="skill-title">Security & Compliance</span>
+          <span class="skill-value">IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness</span>
+        </li>
+        <li>
+          <span class="skill-title">Leadership & Practices</span>
+          <span class="skill-value">Architecture & platform roadmaps, team leadership/mentoring, code reviews, DDD, microservices, TDD, Agile/Scrum/Kanban</span>
+        </li>
+        <li>
+          <span class="skill-title">AI/LLM Systems</span>
+          <span class="skill-value">RAG, agentic/tool-use workflows (LangChain/LangGraph); vector search (MongoDB vector/Postgresql pgvector); small models (Llama/Mistral, etc.); guardrails & cost/latency tuning</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="section-header">
+      <span>Experience</span>
+      <hr/>
+    </div>
+    <div class="section-content">
+      <div class="experience-item">
+        <div class="experience-title">
+          <span>Software Engineer & Team Leader</span>
+          <span><a target="_blank" href="https://www.2kgroup.com/">2K GROUP</a></span>
+          <span>07/2022 - Current</span>
+        </div>
+        <div class="experience-content">
+          <ul>
+            <li>
+              At 2K Group, I held a role as a Golang Developer, Team Leader of the Backend, and Chief Architect
+              for the EvenPlay project (<a href="https://www.evenplay.com">https://www.evenplay.com</a>). As part of this game development project, I took on multiple
+              responsibilities, including backend development, team management, and architectural design.
+            </li>
+            <li><b>Key Contributions:</b>
+              <ul>
+                <li>
+                  <b>Backend Development:</b> Played a pivotal role in developing the backend infrastructure of the
+                  game,
+                  ensuring efficient and reliable gameplay mechanics and server-side functionalities.
+                </li>
+                <li>
+                  <b>Team Leadership and Mentoring:</b> Led a team of developers, providing guidance, support, and
+                  mentorship to
+                  ensure successful project execution and individual growth.
+                </li>
+                <li>
+                  <b>Cloud & Orchestration:</b> Orchestrated the deployment of the game platform on AWS using Kubernetes
+                  (Amazon EKS) with Infrastructure as Code (Terraform). Provisioned and integrated managed services such
+                  as
+                  SQS, SNS, and RDS to enhance scalability, reliability, and operational efficiency.
+                </li>
+                <li>
+                  <b>CI/CD & GitOps:</b> Built automated build, test, and deployment pipelines with Jenkins; implemented GitOps using Argo CD and Helm charts for reliable, repeatable releases.
+                </li>
+                <li>
+                  <b>Python & Computer Vision:</b> Built Python-based services employing machine learning for body and
+                  face detection, and integrated a robust facial recognition capability into gameplay flows.
+                </li>
+                <li>
+                  <b>Game Intelligence:</b> Applied machine learning for gameplay parameter estimation and procedural
+                  content generation (new level generation) to enhance player experience.
+                </li>
+                <li>
+                  <b>Hands-on Leadership:</b> Led the team while delivering the majority of the core backend components
+                  and features, setting standards and mentoring engineers.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>Impact:</b>
+              Under high pressure, delivered quick, high-quality solutions to architectural and code-level challenges; improved system reliability, maintainability, and traceability for faster issue identification and resolution.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience-item page-break">
+        <div class="experience-title">
+          <span>Software Engineer & Team Leader</span>
+          <span><a target="_blank" href="https://www.2kgroup.com/">Billing Platform</a></span>
+          <span>04/2021 - 07/2022</span>
+        </div>
+        <div class="experience-content">
+          <ul>
+            <li>
+              As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the
+              application's security through application-level encryption. Leveraging my skills in AWS, KMS (Key
+              Management Service), Java, Spring Boot, and microservices, I successfully implemented encryption
+              mechanisms to safeguard sensitive data.
+            </li>
+            <li><b>Key Contributions:</b>
+              <ul>
+                <li>
+                  <b>Application Level Encryption:</b> Led the development and implementation of robust encryption
+                  techniques
+                  to
+                  protect application data, ensuring confidentiality and integrity.
+                </li>
+                <li><b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across
+                  microservices,
+                  establishing a centralized authentication mechanism for enhanced security and seamless user
+                  experience.
+                  These initiatives not only bolstered the security of the BillingPlatform but also ensured compliance
+                  with
+                  industry standards and regulations. My collaborative leadership style and technical expertise were
+                  instrumental in achieving these milestones.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>Impact:</b>
+              Strengthened data protection and compliance, reduced security risk, and streamlined authentication across
+              microservices.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience-item page-begin">
+        <div class="experience-title">
+          <span>Software Engineer & Team Leader</span>
+          <span><a target="_blank" href="https://www.2kgroup.com/">GoldenPay</a></span>
+          <span>05/2020 - 05/2021</span>
+        </div>
+        <div class="experience-content">
+          <ul>
+            <li>
+              As the Chief Architect and Team Leader at Goldenpay, I provided strategic guidance and technical
+              leadership for the development of a cutting-edge payment gateway system. In this role, my primary focus
+              was on transitioning from a monolithic architecture to a microservices-based approach, driving improved
+              scalability, flexibility, and maintainability.
+            </li>
+            <li><b>Key Contributions:</b>
+              <ul>
+                <li>
+                  <b>Microservices Transformation:</b> Led the initiative to redesign and reimplement the existing
+                  monolithic
+                  payment gateway application into a scalable and resilient microservices architecture, ensuring
+                  seamless integration and collaboration between services.
+                </li>
+                <li>
+                  <b>Performance and Security Enhancements:</b> Implemented robust security measures and optimized
+                  performance
+                  through careful design and implementation choices, resulting in increased transaction efficiency and
+                  enhanced data protection.
+                </li>
+                <li>
+                  <b>Cross-Functional Team Leadership:</b> Oversaw and mentored a team of developers, guiding them
+                  through the
+                  architectural transformation, fostering collaboration, and ensuring the timely delivery of
+                  high-quality code.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>Impact:</b>
+              Accelerated time-to-market, improved system reliability and throughput, and strengthened security and
+              compliance posture.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience-item">
+        <div class="experience-title">
+          <span>Software Engineer/Architect</span>
+          <span><a target="_blank" href="https://www.2kgroup.com/">Crossover</a></span>
+          <span>04/2017 - 12/2019</span>
+        </div>
+        <div class="experience-content">
+          <ul>
+            <li>
+              <b>Aurora — CxProcess & M1 AlertFind:</b>
+              Contributed to two key Aurora portfolio products focused on process orchestration and mission-critical
+              alerting.
+            </li>
+            <li><b>Responsibilities:</b>
+              <ul>
+                <li>Modernized legacy Java applications by designing a higher-level API layer to decouple UI from core
+                  services.
+                </li>
+                <li>Refactored and reconnected existing backend services to align with the new API contracts and domain
+                  boundaries.
+                </li>
+                <li>Built a high-level Angular application and integrated it with the newly modernized REST APIs.</li>
+              </ul>
+            </li>
+            <li>
+              <b>Impact:</b>
+              Reduced coupling, improved maintainability, and enabled iterative migration without disrupting existing
+              operations.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience-item">
+        <div class="experience-title">
+          <span>Java backend developer</span>
+          <span><a target="_blank" href="javascript:">Apexx</a></span>
+          <span>11/2015 - 04/2017</span>
+        </div>
+        <div class="experience-content">
+          <ul>
+            <li>
+              <b>Impact:</b>
+              Contributed to backend service stability and delivery; improved reliability and code quality across core
+              modules.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience-item">
+        <div class="experience-title">
+          <span>Java backend developer</span>
+          <span><a target="_blank" href="javascript:">Baku State University</a></span>
+          <span>01/2014 - 11/2015</span>
+        </div>
+        <div class="experience-content">
+          <ul>
+            <li>
+              <b>E-University — Student & Education Management System:</b>
+              Main university platform covering the full academic lifecycle: student admissions/entrance,
+              electronic journal, pointing/grading, reporting/analytics, lesson scheduling, and more.
+            </li>
+            <li>
+              <b>Tech stack:</b> Monolithic Java backend, PostgreSQL database, Sencha with GWT/GXT for the UI.
+            </li>
+            <li>
+              <b>Impact:</b> Through this project I gained significant knowledge in higher-education processes and
+              university education management.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience-item">
+        <div class="experience-title">
+          <span>Freelancer</span>
+          <span></span>
+          <span>03/2011 - 01/2014</span>
+        </div>
+        <div class="experience-content">
+          <ul>
+            <li>
+              <b>Impact:</b>
+              Delivered end-to-end solutions for small clients; accelerated go-lives and built repeat engagements
+              through reliable delivery.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section-header">
+      <span>AI R&D Highlights</span>
+      <hr/>
+    </div>
+    <div class="section-content">
+      <p class="note">The following represent prototypes/experiments and proofs-of-concept (not shipped production
+        systems).</p>
+      <ul>
+        <li>Designed RAG and agentic workflows with LangGraph/LangChain and custom-built workflow system; explored
+          vector databases (MongoDB vector/Postgresql pgvector); hybrid retrieval and re-ranking.
+        </li>
+        <li>Prototyped AI application architecture and safety patterns: prompt design/guardrails, hallucination
+          mitigation
+        </li>
+        <li>Set up evaluation/observability for experiments: scenario-based A/B tests, MPC-style performance/quality
+          analysis; telemetry (OpenTelemetry/Prometheus); cost/latency studies.
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="section-header">
+      <span>Open Source</span>
+      <hr/>
+    </div>
+    <div class="section-content">
+      <ul>
+        <li>
+          <b><a target="_blank" href="https://github.com/apibrew/apibrew">https://github.com/apibrew/apibrew</a>:</b>
+          Low Code system, where you can build entire Rest APIs from UI
+        </li>
+        <li>
+          <b><a target="_blank" href="https://github.com/tislib/logi">https://github.com/tislib/logi</a>:</b>
+          DSL language definition system, where you can define your own dsl syntax and logi will parse it.
+        </li>
+        <li>
+          <b><a target="_blank" href="https://github.com/tislib/download-delegator">https://github.com/tislib/download-delegator</a>:</b>
+          A tool for parallel web page downloading, compatible with EC2 and AWS Lambda, enabling efficient bulk
+          downloads.
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="section-header">
+      <span>Certifications</span>
+      <hr/>
+    </div>
+    <div class="section-content">
+      <ul>
+        <li>AWS Certified Solutions Architect – Professional (in-progress, scheduled)</li>
+        <li>Certificate: Semi-Finalist of ACM Programming Contest in Georgia, 2013</li>
+        <li>Certificate: High Achievement certificate of ACM Programming Contest, 2013</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="section-header">
+      <span>Education</span>
+      <hr/>
+    </div>
+    <div class="section-content">
+      <ul>
+        <li>Bachelor's degree in Computer Science and Applied Math — Baku State University (2010 - 2014)</li>
+      </ul>
+    </div>
+  </section>
+</main>
+{{ end }}
