@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - {{profile.name}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        {{{css}}}
+    </style>
+</head>
+<body>
+<main class="resume">
+    <header>
+        <div class="profile">
+            <span class="full-name">{{profile.name}}</span>
+            <span class="headline">{{profile.headline}}</span>
+        </div>
+        <div class="social-container">
+            {{#each profile.social}}
+                <span class="social-item"><i class="{{icon}}"></i>
+                    {{#if link}}
+                        <a target="_blank" href="{{link}}">{{text}}</a>
+                    {{else}}
+                        {{text}}
+                    {{/if}}
+                </span>
+            {{/each}}
+            <span class="location">{{profile.location}}</span>
+        </div>
+    </header>
+    <section>
+        <div class="section-header">
+            <span>Professional Summary</span>
+        </div>
+        <div class="section-content">
+            <p>{{summary}}</p>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Skills</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{#each skills}}
+                    <li>
+                        <span class="skill-title"><strong>{{title}}</strong>:</span>
+                        <span class="skill-value">{{value}}</span>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Experience</span>
+        </div>
+        <div class="section-content">
+            {{#each experience}}
+                <div class="experience-item {{#if pageBreak}}page-break{{/if}} {{#if pageBegin}}page-begin{{/if}}">
+                    <div class="experience-title">
+                        <span>{{title}}</span>
+                        <span><a target="_blank" href="{{companyLink}}">{{company}}</a></span>
+                        <span>{{period}}</span>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            {{#if description}}
+                                <li>{{{description}}}</li>
+                            {{/if}}
+                            {{#if keyContributions}}
+                                <li><strong>Key Contributions:</strong>
+                                    <ul>
+                                        {{#each keyContributions}}
+                                            <li>{{{this}}}</li>
+                                        {{/each}}
+                                    </ul>
+                                </li>
+                            {{/if}}
+                            {{#if responsibilities}}
+                                <li><strong>Responsibilities:</strong>
+                                    <ul>
+                                        {{#each responsibilities}}
+                                            <li>{{{this}}}</li>
+                                        {{/each}}
+                                    </ul>
+                                </li>
+                            {{/if}}
+                            {{#if techStack}}
+                                <li><strong>Tech stack:</strong> {{techStack}}</li>
+                            {{/if}}
+                            {{#if impact}}
+                                <li><strong>Impact:</strong> {{{impact}}}</li>
+                            {{/if}}
+                        </ul>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>AI R&D Highlights</span>
+        </div>
+        <div class="section-content">
+            <p class="note">{{aiRnD.note}}</p>
+            <ul>
+                {{#each aiRnD.highlights}}
+                    <li>{{{this}}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Open Source</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{#each openSource}}
+                    <li>
+                        <b><a target="_blank" href="{{link}}">{{link}}</a>:</b>
+                        {{description}}
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Certifications</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{#each certifications}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Education</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{#each education}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Languages</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{#each languages}}
+                    <li>
+                        <strong>{{name}}</strong>: {{level}}
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+</main>
+</body>
+</html>

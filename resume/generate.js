@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import handlebars from 'handlebars';
 import puppeteer from 'puppeteer';
+import * as sass from 'sass';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -23,13 +24,24 @@ async function generatePdf(jsonPathArg) {
     const rawData = fs.readFileSync(jsonFullPath, 'utf8');
     const jsonData = JSON.parse(rawData);
 
-    // 4. Load Handlebars template (you can also pass this as a param if needed)
+    // 4. Load Handlebars template
     const templatePath = path.join(__dirname, 'template.hbs');
+    if (!fs.existsSync(templatePath)) {
+        throw new Error(`Template not found at: ${templatePath}`);
+    }
     const templateSource = fs.readFileSync(templatePath, 'utf8');
     const template = handlebars.compile(templateSource);
 
-    // 5. Render HTML
-    const html = template(jsonData);
+    // 5. Compile SCSS
+    const scssPath = path.join(__dirname, 'resume.scss');
+    let css = '';
+    if (fs.existsSync(scssPath)) {
+        const result = sass.compile(scssPath);
+        css = result.css;
+    }
+
+    // 6. Render HTML
+    const html = template({ ...jsonData, css });
 
     // 6. Generate PDF with Puppeteer
     const browser = await puppeteer.launch({
@@ -37,23 +49,25 @@ async function generatePdf(jsonPathArg) {
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
 
-    const page = await browser.newPage();
-    await page.setContent(html, { waitUntil: 'networkidle0' });
+    try {
+        const page = await browser.newPage();
+        await page.setContent(html, { waitUntil: 'networkidle0' });
 
-    await page.pdf({
-        path: pdfPath,
-        format: 'A4',
-        printBackground: true,
-        margin: {
-            top: '10mm',
-            right: '10mm',
-            bottom: '10mm',
-            left: '10mm'
-        }
-    });
-
-    await browser.close();
-    console.log('PDF generated at:', pdfPath);
+        await page.pdf({
+            path: pdfPath,
+            format: 'A4',
+            printBackground: true,
+            margin: {
+                top: '10mm',
+                right: '10mm',
+                bottom: '10mm',
+                left: '10mm'
+            }
+        });
+        console.log('PDF generated at:', pdfPath);
+    } finally {
+        await browser.close();
+    }
 }
 
 // CLI usage: node generate.js /path/to/file.json

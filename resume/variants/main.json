@@ -1,0 +1,188 @@
+{
+  "profile": {
+    "name": "Taleh Ibrahimli",
+    "headline": "Staff/Principal Software Engineer · Cloud Platform Architect (AWS, Java/Golang) with AI/LLM experience",
+    "social": [
+      {
+        "icon": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/in/talehibrahimli/",
+        "text": "in/talehibrahimli"
+      },
+      {
+        "icon": "fa-solid fa-mobile",
+        "text": "+34600857686"
+      },
+      {
+        "icon": "fa-solid fa-safari",
+        "link": "https://talehibrahimli.com",
+        "text": "talehibrahimli.com"
+      },
+      {
+        "icon": "fa-solid fa-envelope",
+        "text": "contact@talehibrahimli.com"
+      },
+      {
+        "icon": "fa-brands fa-github",
+        "link": "https://github.com/tislib",
+        "text": "github.com/tislib"
+      }
+    ],
+    "location": "Barcelona, Spain"
+  },
+  "summary": "Principal/Lead Software Engineer with 10+ years building large-scale, cloud-native platforms. Deep hands-on experience across AWS—spanning architecture design, scalability, cost optimization, and reliability engineering. Proven track record leading cross-functional teams and driving full lifecycle delivery, from backend and data systems to operations. Expert in Java, Golang, and modern backend design. Recent focus includes exploring AI/LLM solutions, with R&D experience in RAG workflows, lightweight model serving, and evaluation frameworks.",
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "value": "Java (8+ yrs), Go (3+ yrs), TypeScript/JavaScript, Python"
+    },
+    {
+      "title": "Backend & Distributed Systems",
+      "value": "Spring Boot, Spring WebFlux/Reactive (Project Reactor, Netty, RxJava), REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS"
+    },
+    {
+      "title": "Cloud Architecture & Platform (AWS)",
+      "value": "VPC, EC2, ALB/NLB, Lambda, API Gateway, S3/CloudFront, RDS/Aurora, DynamoDB, ECR/ECS/EKS, EventBridge, SQS/SNS, Kinesis, Step Functions, OpenSearch; IaC: Terraform/CDK; Well-Architected, cost optimization, resiliency"
+    },
+    {
+      "title": "DevOps & SRE",
+      "value": "Kubernetes, Docker, Argo CD, Helm, Jenkins, CI/CD, observability (CloudWatch, X-Ray, Prometheus, Grafana, OpenTelemetry), blue/green & canary, incident response"
+    },
+    {
+      "title": "Data & Storage",
+      "value": "PostgreSQL, MySQL, DynamoDB, Redis, OpenSearch/Elasticsearch, Redshift; streaming pipelines; OLTP/OLAP design"
+    },
+    {
+      "title": "Security & Compliance",
+      "value": "IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
+    },
+    {
+      "title": "Leadership & Practices",
+      "value": "Architecture & platform roadmaps, team leadership/mentoring, code reviews, DDD, microservices, TDD, Agile/Scrum/Kanban"
+    },
+    {
+      "title": "AI/LLM Systems",
+      "value": "RAG, agentic/tool-use workflows (LangChain/LangGraph); vector search (MongoDB vector/Postgresql pgvector); small models (Llama/Mistral, etc.); guardrails & cost/latency tuning"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer & Team Leader",
+      "company": "2K GROUP",
+      "companyLink": "https://www.2kgroup.com/",
+      "period": "07/2022 - Current",
+      "description": "At 2K Group, I held a role as a Golang Developer, Team Leader of the Backend, and Chief Architect for the EvenPlay project (https://www.evenplay.com). As part of this game development project, I took on multiple responsibilities, including backend development, team management, and architectural design.",
+      "keyContributions": [
+        "**Backend Development:** Played a pivotal role in developing the backend infrastructure of the game, ensuring efficient and reliable gameplay mechanics and server-side functionalities.",
+        "**Team Leadership and Mentoring:** Led a team of developers, providing guidance, support, and mentorship to ensure successful project execution and individual growth.",
+        "**Cloud & Orchestration:** Orchestrated the deployment of the game platform on AWS using Kubernetes (Amazon EKS) with Infrastructure as Code (Terraform). Provisioned and integrated managed services such as SQS, SNS, and RDS to enhance scalability, reliability, and operational efficiency.",
+        "**CI/CD & GitOps:** Built automated build, test, and deployment pipelines with Jenkins; implemented GitOps using Argo CD and Helm charts for reliable, repeatable releases.",
+        "**Python & Computer Vision:** Built Python-based services employing machine learning for body and face detection, and integrated a robust facial recognition capability into gameplay flows.",
+        "**Game Intelligence:** Applied machine learning for gameplay parameter estimation and procedural content generation (new level generation) to enhance player experience.",
+        "**Hands-on Leadership:** Led the team while delivering the majority of the core backend components and features, setting standards and mentoring engineers."
+      ],
+      "impact": "Under high pressure, delivered quick, high-quality solutions to architectural and code-level challenges; improved system reliability, maintainability, and traceability for faster issue identification and resolution."
+    },
+    {
+      "title": "Software Engineer & Team Leader",
+      "company": "Billing Platform",
+      "companyLink": "https://www.2kgroup.com/",
+      "period": "04/2021 - 07/2022",
+      "pageBreak": true,
+      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through application-level encryption. Leveraging my skills in AWS, KMS (Key Management Service), Java, Spring Boot, and microservices, I successfully implemented encryption mechanisms to safeguard sensitive data.",
+      "keyContributions": [
+        "**Application Level Encryption:** Led the development and implementation of robust encryption techniques to protect application data, ensuring confidentiality and integrity.",
+        "**Oauth2 Implementation:** Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience. These initiatives not only bolstered the security of the BillingPlatform but also ensured compliance with industry standards and regulations. My collaborative leadership style and technical expertise were instrumental in achieving these milestones."
+      ],
+      "impact": "Strengthened data protection and compliance, reduced security risk, and streamlined authentication across microservices."
+    },
+    {
+      "title": "Software Engineer & Team Leader",
+      "company": "GoldenPay",
+      "companyLink": "https://www.2kgroup.com/",
+      "period": "05/2020 - 05/2021",
+      "pageBegin": true,
+      "description": "As the Chief Architect and Team Leader at Goldenpay, I provided strategic guidance and technical leadership for the development of a cutting-edge payment gateway system. In this role, my primary focus was on transitioning from a monolithic architecture to a microservices-based approach, driving improved scalability, flexibility, and maintainability.",
+      "keyContributions": [
+        "**Microservices Transformation:** Led the initiative to redesign and reimplement the existing monolithic payment gateway application into a scalable and resilient microservices architecture, ensuring seamless integration and collaboration between services.",
+        "**Performance and Security Enhancements:** Implemented robust security measures and optimized performance through careful design and implementation choices, resulting in increased transaction efficiency and enhanced data protection.",
+        "**Cross-Functional Team Leadership:** Oversaw and mentored a team of developers, guiding them through the architectural transformation, fostering collaboration, and ensuring the timely delivery of high-quality code."
+      ],
+      "impact": "Accelerated time-to-market, improved system reliability and throughput, and strengthened security and compliance posture."
+    },
+    {
+      "title": "Software Engineer/Architect",
+      "company": "Crossover",
+      "companyLink": "https://www.2kgroup.com/",
+      "period": "04/2017 - 12/2019",
+      "description": "**Aurora — CxProcess & M1 AlertFind:** Contributed to two key Aurora portfolio products focused on process orchestration and mission-critical alerting.",
+      "responsibilities": [
+        "Modernized legacy Java applications by designing a higher-level API layer to decouple UI from core services.",
+        "Refactored and reconnected existing backend services to align with the new API contracts and domain boundaries.",
+        "Built a high-level Angular application and integrated it with the newly modernized REST APIs."
+      ],
+      "impact": "Reduced coupling, improved maintainability, and enabled iterative migration without disrupting existing operations."
+    },
+    {
+      "title": "Java backend developer",
+      "company": "Apexx",
+      "companyLink": "javascript:",
+      "period": "11/2015 - 04/2017",
+      "impact": "Contributed to backend service stability and delivery; improved reliability and code quality across core modules."
+    },
+    {
+      "title": "Java backend developer",
+      "company": "Baku State University",
+      "companyLink": "javascript:",
+      "period": "01/2014 - 11/2015",
+      "description": "**E-University — Student & Education Management System:** Main university platform covering the full academic lifecycle: student admissions/entrance, electronic journal, pointing/grading, reporting/analytics, lesson scheduling, and more.",
+      "techStack": "Monolithic Java backend, PostgreSQL database, Sencha with GWT/GXT for the UI.",
+      "impact": "Through this project I gained significant knowledge in higher-education processes and university education management."
+    },
+    {
+      "title": "Freelancer",
+      "company": "",
+      "companyLink": "",
+      "period": "03/2011 - 01/2014",
+      "impact": "Delivered end-to-end solutions for small clients; accelerated go-lives and built repeat engagements through reliable delivery."
+    }
+  ],
+  "aiRnD": {
+    "note": "The following represent prototypes/experiments and proofs-of-concept (not shipped production systems).",
+    "highlights": [
+      "Designed RAG and agentic workflows with LangGraph/LangChain and custom-built workflow system; explored vector databases (MongoDB vector/Postgresql pgvector); hybrid retrieval and re-ranking.",
+      "Prototyped AI application architecture and safety patterns: prompt design/guardrails, hallucination mitigation",
+      "Set up evaluation/observability for experiments: scenario-based A/B tests, MPC-style performance/quality analysis; telemetry (OpenTelemetry/Prometheus); cost/latency studies."
+    ]
+  },
+  "openSource": [
+    {
+      "title": "https://github.com/apibrew/apibrew",
+      "link": "https://github.com/apibrew/apibrew",
+      "description": "Low Code system, where you can build entire Rest APIs from UI"
+    },
+    {
+      "title": "https://github.com/tislib/logi",
+      "link": "https://github.com/tislib/logi",
+      "description": "DSL language definition system, where you can define your own dsl syntax and logi will parse it."
+    },
+    {
+      "title": "https://github.com/tislib/download-delegator",
+      "link": "https://github.com/tislib/download-delegator",
+      "description": "A tool for parallel web page downloading, compatible with EC2 and AWS Lambda, enabling efficient bulk downloads."
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect – Professional (in-progress, scheduled)",
+    "Certificate: Semi-Finalist of ACM Programming Contest in Georgia, 2013",
+    "Certificate: High Achievement certificate of ACM Programming Contest, 2013"
+  ],
+  "education": [
+    "Bachelor's degree in Computer Science and Applied Math — Baku State University (2010 - 2014)"
+  ],
+  "languages": [
+    { "name": "English", "level": "Professional working proficiency" },
+    { "name": "Azerbaijani", "level": "Native" },
+    { "name": "Turkish", "level": "Full professional proficiency" },
+    { "name": "Russian", "level": "Professional working proficiency" }
+  ]
+}
