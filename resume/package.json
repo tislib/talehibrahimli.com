@@ -4,6 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "node dev.js",
+    "generate": "node generate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +16,9 @@
     "handlebars": "^4.7.8",
     "puppeteer": "^24.34.0",
     "sass": "^1.97.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "express": "^5.2.1"
   }
 }

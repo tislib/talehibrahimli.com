@@ -178,11 +178,5 @@
   ],
   "education": [
     "Bachelor's degree in Computer Science and Applied Math — Baku State University (2010 - 2014)"
-  ],
-  "languages": [
-    { "name": "English", "level": "Professional working proficiency" },
-    { "name": "Azerbaijani", "level": "Native" },
-    { "name": "Turkish", "level": "Full professional proficiency" },
-    { "name": "Russian", "level": "Professional working proficiency" }
   ]
 }
