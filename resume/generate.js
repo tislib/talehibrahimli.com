@@ -15,10 +15,16 @@ async function generatePdf(jsonPathArg) {
         ? jsonPathArg
         : path.resolve(process.cwd(), jsonPathArg);
 
-    // 2. Derive output PDF path (same dir, same name, .pdf)
+    // 2. Derive output PDF path ({variantName}/taleh_ibrahimli_resume.pdf)
     const jsonDir = path.dirname(jsonFullPath);
-    const jsonBase = path.basename(jsonFullPath, path.extname(jsonFullPath));
-    const pdfPath = path.join(jsonDir, `${jsonBase}.pdf`);
+    const variantName = path.basename(jsonFullPath, path.extname(jsonFullPath));
+    const outputDir = path.join(jsonDir, variantName);
+    const pdfPath = path.join(outputDir, 'taleh_ibrahimli_resume.pdf');
+
+    // Ensure output directory exists
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     // 3. Load JSON data
     const rawData = fs.readFileSync(jsonFullPath, 'utf8');
@@ -70,15 +76,32 @@ async function generatePdf(jsonPathArg) {
     }
 }
 
-// CLI usage: node generate.js /path/to/file.json
+// CLI usage: node generate.js [/path/to/file.json]
 const jsonArg = process.argv[2];
 
 if (!jsonArg) {
-    console.error('Usage: node generate.js <path-to-json>');
-    process.exit(1);
+    const variantsDir = path.join(__dirname, 'variants');
+    if (!fs.existsSync(variantsDir)) {
+        console.error('Error: "variants" directory not found and no JSON path provided.');
+        process.exit(1);
+    }
+    const files = fs.readdirSync(variantsDir).filter(file => file.endsWith('.json'));
+    if (files.length === 0) {
+        console.error('Error: No JSON files found in "variants" directory.');
+        process.exit(1);
+    }
+    
+    (async () => {
+        for (const file of files) {
+            await generatePdf(path.join(variantsDir, file));
+        }
+    })().catch((err) => {
+        console.error(err);
+        process.exit(1);
+    });
+} else {
+    generatePdf(jsonArg).catch((err) => {
+        console.error(err);
+        process.exit(1);
+    });
 }
-
-generatePdf(jsonArg).catch((err) => {
-    console.error(err);
-    process.exit(1);
-});
