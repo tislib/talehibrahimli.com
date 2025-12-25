@@ -29,11 +29,11 @@
     ],
     "location": "Barcelona, Spain"
   },
-  "summary": "Principal/Lead Software Engineer with 10+ years building large-scale, cloud-native platforms. Deep hands-on experience across AWS—spanning architecture design, scalability, cost optimization, and reliability engineering. Proven track record leading cross-functional teams and driving full lifecycle delivery, from backend and data systems to operations. Expert in Java, Golang, and modern backend design. Recent focus includes exploring AI/LLM solutions, with R&D experience in RAG workflows, lightweight model serving, and evaluation frameworks.",
+  "summary": "Principal/Lead Software Engineer with 10+ years building large-scale, cloud-native platforms. Deep hands-on experience across AWS—spanning architecture design, scalability, cost optimization, and reliability engineering. Proven track record leading cross-functional teams and driving full lifecycle delivery, from backend and data systems to operations. Expert in Java, Kotlin, Golang, and modern backend design. Recent focus includes exploring AI/LLM solutions, with R&D experience in RAG workflows, lightweight model serving, and evaluation frameworks.",
   "skills": [
     {
       "title": "Programming Languages",
-      "value": "Java (8+ yrs), Go (3+ yrs), TypeScript/JavaScript, Python"
+      "value": "Java (8+ yrs), Go (3+ yrs), Kotlin, Rust, TypeScript/JavaScript, Python"
     },
     {
       "title": "Backend & Distributed Systems",
@@ -88,7 +88,7 @@
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2021 - 07/2022",
       "pageBreak": true,
-      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through application-level encryption. Leveraging my skills in AWS, KMS (Key Management Service), Java, Spring Boot, and microservices, I successfully implemented encryption mechanisms to safeguard sensitive data.",
+      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through application-level encryption. Leveraging my skills in AWS, KMS (Key Management Service), Java, Kotlin, Spring Boot, and microservices, I successfully implemented encryption mechanisms to safeguard sensitive data.",
       "keyContributions": [
         "**Application Level Encryption:** Led the development and implementation of robust encryption techniques to protect application data, ensuring confidentiality and integrity.",
         "**Oauth2 Implementation:** Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience. These initiatives not only bolstered the security of the BillingPlatform but also ensured compliance with industry standards and regulations. My collaborative leadership style and technical expertise were instrumental in achieving these milestones."
@@ -101,7 +101,7 @@
       "companyLink": "https://www.2kgroup.com/",
       "period": "05/2020 - 05/2021",
       "pageBegin": true,
-      "description": "As the Chief Architect and Team Leader at Goldenpay, I provided strategic guidance and technical leadership for the development of a cutting-edge payment gateway system. In this role, my primary focus was on transitioning from a monolithic architecture to a microservices-based approach, driving improved scalability, flexibility, and maintainability.",
+      "description": "As the Chief Architect and Team Leader at Goldenpay, I provided strategic guidance and technical leadership for the development of a cutting-edge payment gateway system. Leveraging Java, Kotlin, and microservices, I focused on transitioning from a monolithic architecture to a microservices-based approach, driving improved scalability, flexibility, and maintainability.",
       "keyContributions": [
         "**Microservices Transformation:** Led the initiative to redesign and reimplement the existing monolithic payment gateway application into a scalable and resilient microservices architecture, ensuring seamless integration and collaboration between services.",
         "**Performance and Security Enhancements:** Implemented robust security measures and optimized performance through careful design and implementation choices, resulting in increased transaction efficiency and enhanced data protection.",
