@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Taleh Ibrahimli",
-    "headline": "Senior Backend Engineer (Java/Go/AWS) · Distributed Systems · Microservices & High Scalability",
+    "headline": "Lead Software Engineer (Java/Go/AWS) · Distributed Systems · Microservices & High Scalability",
     "social": [
       {
         "icon": "fa-brands fa-linkedin",
@@ -29,7 +29,7 @@
     ],
     "location": "Barcelona, Spain"
   },
-  "summary": "Senior Software Engineer with 10+ years of deep hands-on experience in Java, Go, and AWS. Specialist in high-load systems and migrating monoliths to microservices. Technically focused individual contributor who prefers coding and architectural implementation over people management. Open to Relocation (Highly Skilled Migrant).",
+  "summary": "Lead Software Engineer with 10+ years of experience combining hands-on coding (Java, Go, AWS) with technical leadership. Specialist in migrating monoliths to microservices and building high-load systems. Experienced in leading development teams while remaining an individual contributor (Player-Coach). Open to Relocation (Highly Skilled Migrant) or B2B Contract.",
   "skills": [
     {
       "title": "Programming Languages",
@@ -56,6 +56,10 @@
       "value": "IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
     },
     {
+      "title": "Technical Leadership & Practices",
+      "value": "Technical Mentoring, Code Reviews, Architecture Decision Records (ADR), DDD, Microservices Patterns, TDD, Agile/Scrum, CI/CD Strategy"
+    },
+    {
       "title": "AI/LLM Systems",
       "value": "RAG, agentic/tool-use workflows (LangChain/LangGraph); vector search (MongoDB vector/Postgresql pgvector); small models (Llama/Mistral, etc.); guardrails & cost/latency tuning"
     }
@@ -79,90 +83,90 @@
   ],
   "experience": [
     {
-      "title": "Principal Backend Engineer (Golang/AWS)",
+      "title": "Lead Backend Engineer (Golang/AWS)",
       "company": "2K GROUP",
       "companyLink": "https://www.2kgroup.com/",
       "period": "07/2022 - Current",
-      "description": "At 2K Group, I acted as the Principal Engineer for the EvenPlay project (https://www.evenplay.com). I was responsible for the core backend architecture, hands-on Golang development, and cloud infrastructure, ensuring high scalability for game mechanics.",
+      "description": "Principal Engineer and Technical Lead for the EvenPlay project. I balanced hands-on coding in Golang with leading the backend team, establishing architectural standards, and mentoring engineers.",
       "keyContributions": [
-        "<b>Cloud & Orchestration:</b> Orchestrated the deployment of the game platform on AWS using Kubernetes (Amazon EKS) with Infrastructure as Code (Terraform). Provisioned and integrated managed services such as SQS, SNS, and RDS to enhance scalability, reliability, and operational efficiency.",
-        "<b>Backend Development:</b> Developed the core backend infrastructure using Golang, ensuring low-latency gameplay mechanics and reliable server-side functionalities.",
-        "<b>CI/CD & GitOps:</b> Built automated build, test, and deployment pipelines with Jenkins; implemented GitOps using Argo CD and Helm charts for reliable, repeatable releases.",
-        "<b>Python & Computer Vision:</b> Built Python-based services employing machine learning for body and face detection, and integrated a robust facial recognition capability into gameplay flows.",
-        "<b>Technical Leadership:</b> Set coding standards and conducted code reviews, mentoring the engineering team on Go/AWS best practices while delivering the majority of core features."
+        "<b>Backend Development (Hands-on):</b> Developed the core backend infrastructure using Golang, ensuring low-latency gameplay mechanics and reliable server-side functionalities.",
+        "<b>Technical Leadership:</b> Led the backend team through code reviews and technical planning. Defined the microservices roadmap and mentored developers on Go/AWS best practices.",
+        "<b>Cloud & Orchestration:</b> Orchestrated the deployment on AWS using Kubernetes (EKS) and Terraform. Integrated SQS, SNS, and RDS for high scalability.",
+        "<b>CI/CD & GitOps:</b> Built automated pipelines with Jenkins and implemented GitOps using Argo CD for reliable releases.",
+        "<b>Python & Computer Vision:</b> Built Python-based services employing machine learning for body/face detection."
       ],
-      "impact": "Delivered critical high-load components under tight deadlines; improved system reliability and maintainability, enabling the platform to scale."
+      "impact": "Delivered critical high-load components while leading the team to improved code quality and faster delivery cycles."
     },
     {
-      "title": "Senior Software Engineer (Security & Encryption)",
+      "title": "Senior Software Engineer (Security Focus)",
       "company": "Billing Platform",
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2021 - 07/2022",
       "pageBreak": true,
-      "description": "Played a pivotal role in enhancing the application's security through application-level encryption. Leveraging AWS KMS, Java, Kotlin, and Spring Boot, I successfully implemented encryption mechanisms to safeguard sensitive data.",
+      "description": "Key contributor to the platform's security architecture. Leveraged AWS KMS, Java, and Spring Boot to implement application-level encryption.",
       "keyContributions": [
-        "<b>Application Level Encryption:</b> Led the development and implementation of robust encryption techniques to protect application data, ensuring confidentiality and integrity.",
-        "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience."
+        "<b>Application Level Encryption:</b> Led the development of encryption techniques to protect application data, ensuring confidentiality.",
+        "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized security mechanism."
       ],
-      "impact": "Strengthened data protection and compliance, reduced security risk, and streamlined authentication across microservices."
+      "impact": "Strengthened data protection and streamlined authentication across the microservices ecosystem."
     },
     {
-      "title": "Senior Java Engineer (Microservices Migration)",
+      "title": "Lead Java Engineer (Microservices Migration)",
       "company": "GoldenPay",
       "companyLink": "https://www.2kgroup.com/",
       "period": "05/2020 - 05/2021",
       "pageBegin": true,
-      "description": "Technical lead for the migration of a legacy payment gateway system. Focused on decomposing the monolith into a resilient microservices architecture using Java and Kotlin to drive scalability and flexibility.",
+      "description": "Technical Team Lead for the migration of a legacy payment gateway. I led the team in decomposing the monolith into microservices while actively writing core Java/Kotlin code.",
       "keyContributions": [
-        "<b>Microservices Transformation:</b> Redesigned and reimplemented the monolithic payment gateway into a scalable microservices architecture, ensuring seamless integration between services.",
-        "<b>Performance & Security:</b> Implemented robust security measures and optimized performance through careful design choices, resulting in increased transaction efficiency.",
-        "<b>Technical Guidance:</b> Guided the development team through the architectural transformation, establishing patterns for the new microservices ecosystem."
+        "<b>Microservices Transformation:</b> Architected and implemented the move from monolith to microservices, ensuring seamless integration.",
+        "<b>Technical Mentorship:</b> Guided the development team through the transition, introducing patterns for distributed systems and ensuring high code quality.",
+        "<b>Performance & Security:</b> Implemented robust security measures and optimized transaction performance through hands-on refactoring."
       ],
-      "impact": "Accelerated time-to-market, improved system reliability and throughput, and strengthened security and compliance posture."
+      "impact": "Accelerated time-to-market and successfully led the team through a complex architectural transformation."
     },
     {
       "title": "Software Engineer",
       "company": "Crossover",
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2017 - 12/2019",
-      "description": "<b>Aurora — CxProcess & M1 AlertFind:</b> Contributed to two key Aurora portfolio products focused on process orchestration and mission-critical alerting.",
+      "description": "<b>Aurora — CxProcess & M1 AlertFind:</b> Contributed to two key Aurora portfolio products focused on process orchestration.",
       "responsibilities": [
-        "Modernized legacy Java applications by designing a higher-level API layer to decouple UI from core services.",
-        "Refactored and reconnected existing backend services to align with the new API contracts and domain boundaries.",
-        "Built a high-level Angular application and integrated it with the newly modernized REST APIs."
+        "Modernized legacy Java applications by designing a higher-level API layer.",
+        "Refactored backend services to align with new API contracts.",
+        "Built a high-level Angular application integrated with modernized REST APIs."
       ],
-      "impact": "Reduced coupling, improved maintainability, and enabled iterative migration without disrupting existing operations."
+      "impact": "Reduced coupling and enabled iterative migration without disrupting operations."
     },
     {
       "title": "Java Backend Developer",
       "company": "Apexx",
       "companyLink": "javascript:",
       "period": "11/2015 - 04/2017",
-      "impact": "Contributed to backend service stability and delivery; improved reliability and code quality across core modules."
+      "impact": "Contributed to backend service stability and delivery; improved reliability and code quality."
     },
     {
       "title": "Java Backend Developer",
       "company": "Baku State University",
       "companyLink": "javascript:",
       "period": "01/2014 - 11/2015",
-      "description": "<b>E-University — Student & Education Management System:</b> Main university platform covering the full academic lifecycle.",
-      "techStack": "Monolithic Java backend, PostgreSQL database, Sencha with GWT/GXT for the UI.",
-      "impact": "Gained significant knowledge in higher-education processes and university education management."
+      "description": "<b>E-University:</b> Developed the main university platform covering the full academic lifecycle.",
+      "techStack": "Monolithic Java backend, PostgreSQL, Sencha/GWT.",
+      "impact": "Gained significant knowledge in higher-education processes."
     },
     {
       "title": "Freelancer",
       "company": "",
       "companyLink": "",
       "period": "03/2011 - 01/2014",
-      "impact": "Delivered end-to-end solutions for small clients; accelerated go-lives and built repeat engagements through reliable delivery."
+      "impact": "Delivered end-to-end solutions for small clients; accelerated go-lives."
     }
   ],
   "aiRnD": {
     "note": "The following represent prototypes/experiments and proofs-of-concept (not shipped production systems).",
     "highlights": [
-      "Designed RAG and agentic workflows with LangGraph/LangChain and custom-built workflow system; explored vector databases (MongoDB vector/Postgresql pgvector).",
-      "Prototyped AI application architecture and safety patterns: prompt design/guardrails, hallucination mitigation.",
-      "Set up evaluation/observability for experiments: scenario-based A/B tests, telemetry, and cost/latency studies."
+      "Designed RAG and agentic workflows with LangGraph/LangChain; explored vector databases (MongoDB/Postgresql).",
+      "Prototyped AI architecture: prompt design, guardrails, and hallucination mitigation.",
+      "Set up evaluation/observability: A/B tests, telemetry, and cost/latency studies."
     ]
   },
   "certifications": [
