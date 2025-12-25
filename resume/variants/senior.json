@@ -72,13 +72,13 @@
       "period": "07/2022 - Current",
       "description": "At 2K Group, I held a role as a Golang Developer, Team Leader of the Backend, and Chief Architect for the EvenPlay project (https://www.evenplay.com). As part of this game development project, I took on multiple responsibilities, including backend development, team management, and architectural design.",
       "keyContributions": [
-        "**Backend Development:** Played a pivotal role in developing the backend infrastructure of the game, ensuring efficient and reliable gameplay mechanics and server-side functionalities.",
-        "**Team Leadership and Mentoring:** Led a team of developers, providing guidance, support, and mentorship to ensure successful project execution and individual growth.",
-        "**Cloud & Orchestration:** Orchestrated the deployment of the game platform on AWS using Kubernetes (Amazon EKS) with Infrastructure as Code (Terraform). Provisioned and integrated managed services such as SQS, SNS, and RDS to enhance scalability, reliability, and operational efficiency.",
-        "**CI/CD & GitOps:** Built automated build, test, and deployment pipelines with Jenkins; implemented GitOps using Argo CD and Helm charts for reliable, repeatable releases.",
-        "**Python & Computer Vision:** Built Python-based services employing machine learning for body and face detection, and integrated a robust facial recognition capability into gameplay flows.",
-        "**Game Intelligence:** Applied machine learning for gameplay parameter estimation and procedural content generation (new level generation) to enhance player experience.",
-        "**Hands-on Leadership:** Led the team while delivering the majority of the core backend components and features, setting standards and mentoring engineers."
+        "<b>Backend Development:</b> Played a pivotal role in developing the backend infrastructure of the game, ensuring efficient and reliable gameplay mechanics and server-side functionalities.",
+        "<b>Team Leadership and Mentoring:</b> Led a team of developers, providing guidance, support, and mentorship to ensure successful project execution and individual growth.",
+        "<b>Cloud & Orchestration:</b> Orchestrated the deployment of the game platform on AWS using Kubernetes (Amazon EKS) with Infrastructure as Code (Terraform). Provisioned and integrated managed services such as SQS, SNS, and RDS to enhance scalability, reliability, and operational efficiency.",
+        "<b>CI/CD & GitOps:</b> Built automated build, test, and deployment pipelines with Jenkins; implemented GitOps using Argo CD and Helm charts for reliable, repeatable releases.",
+        "<b>Python & Computer Vision:</b> Built Python-based services employing machine learning for body and face detection, and integrated a robust facial recognition capability into gameplay flows.",
+        "<b>Game Intelligence:</b> Applied machine learning for gameplay parameter estimation and procedural content generation (new level generation) to enhance player experience.",
+        "<b>Hands-on Leadership:</b> Led the team while delivering the majority of the core backend components and features, setting standards and mentoring engineers."
       ],
       "impact": "Under high pressure, delivered quick, high-quality solutions to architectural and code-level challenges; improved system reliability, maintainability, and traceability for faster issue identification and resolution."
     },
@@ -90,8 +90,8 @@
       "pageBreak": true,
       "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through application-level encryption. Leveraging my skills in AWS, KMS (Key Management Service), Java, Kotlin, Spring Boot, and microservices, I successfully implemented encryption mechanisms to safeguard sensitive data.",
       "keyContributions": [
-        "**Application Level Encryption:** Led the development and implementation of robust encryption techniques to protect application data, ensuring confidentiality and integrity.",
-        "**Oauth2 Implementation:** Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience. These initiatives not only bolstered the security of the BillingPlatform but also ensured compliance with industry standards and regulations. My collaborative leadership style and technical expertise were instrumental in achieving these milestones."
+        "<b>Application Level Encryption:</b> Led the development and implementation of robust encryption techniques to protect application data, ensuring confidentiality and integrity.",
+        "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience. These initiatives not only bolstered the security of the BillingPlatform but also ensured compliance with industry standards and regulations. My collaborative leadership style and technical expertise were instrumental in achieving these milestones."
       ],
       "impact": "Strengthened data protection and compliance, reduced security risk, and streamlined authentication across microservices."
     },
@@ -103,9 +103,9 @@
       "pageBegin": true,
       "description": "As the Chief Architect and Team Leader at Goldenpay, I provided strategic guidance and technical leadership for the development of a cutting-edge payment gateway system. Leveraging Java, Kotlin, and microservices, I focused on transitioning from a monolithic architecture to a microservices-based approach, driving improved scalability, flexibility, and maintainability.",
       "keyContributions": [
-        "**Microservices Transformation:** Led the initiative to redesign and reimplement the existing monolithic payment gateway application into a scalable and resilient microservices architecture, ensuring seamless integration and collaboration between services.",
-        "**Performance and Security Enhancements:** Implemented robust security measures and optimized performance through careful design and implementation choices, resulting in increased transaction efficiency and enhanced data protection.",
-        "**Cross-Functional Team Leadership:** Oversaw and mentored a team of developers, guiding them through the architectural transformation, fostering collaboration, and ensuring the timely delivery of high-quality code."
+        "<b>Microservices Transformation:</b> Led the initiative to redesign and reimplement the existing monolithic payment gateway application into a scalable and resilient microservices architecture, ensuring seamless integration and collaboration between services.",
+        "<b>Performance and Security Enhancements:</b> Implemented robust security measures and optimized performance through careful design and implementation choices, resulting in increased transaction efficiency and enhanced data protection.",
+        "<b>Cross-Functional Team Leadership:</b> Oversaw and mentored a team of developers, guiding them through the architectural transformation, fostering collaboration, and ensuring the timely delivery of high-quality code."
       ],
       "impact": "Accelerated time-to-market, improved system reliability and throughput, and strengthened security and compliance posture."
     },
@@ -114,7 +114,7 @@
       "company": "Crossover",
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2017 - 12/2019",
-      "description": "**Aurora — CxProcess & M1 AlertFind:** Contributed to two key Aurora portfolio products focused on process orchestration and mission-critical alerting.",
+      "description": "<b>Aurora — CxProcess & M1 AlertFind:</b> Contributed to two key Aurora portfolio products focused on process orchestration and mission-critical alerting.",
       "responsibilities": [
         "Modernized legacy Java applications by designing a higher-level API layer to decouple UI from core services.",
         "Refactored and reconnected existing backend services to align with the new API contracts and domain boundaries.",
@@ -134,7 +134,7 @@
       "company": "Baku State University",
       "companyLink": "javascript:",
       "period": "01/2014 - 11/2015",
-      "description": "**E-University — Student & Education Management System:** Main university platform covering the full academic lifecycle: student admissions/entrance, electronic journal, pointing/grading, reporting/analytics, lesson scheduling, and more.",
+      "description": "<b>E-University — Student & Education Management System:</b> Main university platform covering the full academic lifecycle: student admissions/entrance, electronic journal, pointing/grading, reporting/analytics, lesson scheduling, and more.",
       "techStack": "Monolithic Java backend, PostgreSQL database, Sencha with GWT/GXT for the UI.",
       "impact": "Through this project I gained significant knowledge in higher-education processes and university education management."
     },

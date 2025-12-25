@@ -1,68 +1,26 @@
 {
   "profile": {
     "name": "Taleh Ibrahimli",
-    "headline": "Lead/Senior Software Engineer · Cloud Platform Architect (AWS, Java/Golang) with AI/LLM experience",
+    "headline": "Senior Backend/Platform Engineer · Low-Latency & Cloud (Go/Java, AWS) · Quant Backtesting Systems",
     "social": [
-      {
-        "icon": "fa-brands fa-linkedin",
-        "link": "https://www.linkedin.com/in/talehibrahimli/",
-        "text": "in/talehibrahimli"
-      },
-      {
-        "icon": "fa-solid fa-mobile",
-        "text": "+34600857686"
-      },
-      {
-        "icon": "fa-solid fa-safari",
-        "link": "https://talehibrahimli.com",
-        "text": "talehibrahimli.com"
-      },
-      {
-        "icon": "fa-solid fa-envelope",
-        "text": "contact@talehibrahimli.com"
-      },
-      {
-        "icon": "fa-brands fa-github",
-        "link": "https://github.com/tislib",
-        "text": "github.com/tislib"
-      }
+      { "icon": "fa-brands fa-linkedin", "link": "https://www.linkedin.com/in/talehibrahimli/", "text": "in/talehibrahimli" },
+      { "icon": "fa-solid fa-mobile", "text": "+34600857686" },
+      { "icon": "fa-solid fa-safari", "link": "https://talehibrahimli.com", "text": "talehibrahimli.com" },
+      { "icon": "fa-solid fa-envelope", "text": "contact@talehibrahimli.com" },
+      { "icon": "fa-brands fa-github", "link": "https://github.com/tislib", "text": "github.com/tislib" }
     ],
-    "location": "Barcelona, Spain"
+    "location": "Barcelona, Spain · Open to relocation: Amsterdam, NL"
   },
-  "summary": "Lead/Senior Software Engineer with 10+ years building large-scale, cloud-native platforms. Deep hands-on experience across AWS—spanning architecture design, scalability, cost optimization, and reliability engineering. Proven track record leading cross-functional teams and driving full lifecycle delivery, from backend and data systems to operations. Expert in Java, Kotlin, Golang, and modern backend design. Recent focus includes exploring AI/LLM solutions, with R&D experience in RAG workflows, lightweight model serving, and evaluation frameworks.",
+  "summary": "Senior Backend/Platform Engineer with 10+ years building high‑throughput, fault‑tolerant services on AWS and Kubernetes (Go/Java). Hands‑on with concurrency, streaming, observability, and cost/perf tuning. Built a proprietary backtesting and pattern‑analysis system (Go) to research price dynamics; implemented data pipelines, simulation, and signal evaluation. Strong fit for market data/backtesting platforms, research tooling, and low‑latency/backend roles in trading firms. Leadership experience (team lead/architect), rigorous engineering practices, and recent R&D in AI/LLM evaluation applied to signal quality and guardrails.",
   "skills": [
-    {
-      "title": "Programming Languages",
-      "value": "Java (8+ yrs), Go (3+ yrs), Kotlin, Rust, TypeScript/JavaScript, Python"
-    },
-    {
-      "title": "Backend & Distributed Systems",
-      "value": "Spring Boot, Spring WebFlux/Reactive (Project Reactor, Netty, RxJava), REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS"
-    },
-    {
-      "title": "Cloud Architecture & Platform (AWS)",
-      "value": "VPC, EC2, ALB/NLB, Lambda, API Gateway, S3/CloudFront, RDS/Aurora, DynamoDB, ECR/ECS/EKS, EventBridge, SQS/SNS, Kinesis, Step Functions, OpenSearch; IaC: Terraform/CDK; Well-Architected, cost optimization, resiliency"
-    },
-    {
-      "title": "DevOps & SRE",
-      "value": "Kubernetes, Docker, Argo CD, Helm, Jenkins, CI/CD, observability (CloudWatch, X-Ray, Prometheus, Grafana, OpenTelemetry), blue/green & canary, incident response"
-    },
-    {
-      "title": "Data & Storage",
-      "value": "PostgreSQL, MySQL, DynamoDB, Redis, OpenSearch/Elasticsearch, Redshift; streaming pipelines; OLTP/OLAP design"
-    },
-    {
-      "title": "Security & Compliance",
-      "value": "IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
-    },
-    {
-      "title": "Leadership & Practices",
-      "value": "Architecture & platform roadmaps, team leadership/mentoring, code reviews, DDD, microservices, TDD, Agile/Scrum/Kanban"
-    },
-    {
-      "title": "AI/LLM Systems",
-      "value": "RAG, agentic/tool-use workflows (LangChain/LangGraph); vector search (MongoDB vector/Postgresql pgvector); small models (Llama/Mistral, etc.); guardrails & cost/latency tuning"
-    }
+    { "title": "Programming Languages", "value": "Go (3+ yrs), Java (8+ yrs), Kotlin, Rust (learning), TypeScript/JavaScript, Python" },
+    { "title": "Low‑Latency & Concurrency", "value": "Goroutines/channels, lock‑free patterns, memory/GC awareness (Go/Java), Netty/Reactor, async I/O, profiling (pprof, JFR), Linux perf basics, batching, backpressure" },
+    { "title": "Market/Quant Platform Concepts", "value": "Backtesting simulation, event/time‑bar processing, rolling features, risk/position PnL calc, slippage/fees modeling, Monte Carlo basics, signal evaluation (precision/recall, drawdown), data alignment" },
+    { "title": "Data & Streaming", "value": "Kafka/Kinesis/SQS, REST/gRPC, Redis caching, PostgreSQL/MySQL, DynamoDB, OpenSearch/Elasticsearch; time‑series design, OLTP/OLAP, batch/stream processing" },
+    { "title": "Cloud & Platform (AWS)", "value": "VPC, EC2, ALB/NLB, Lambda, API Gateway, S3/CloudFront, RDS/Aurora, DynamoDB, ECR/ECS/EKS, EventBridge, SQS/SNS, Kinesis, Step Functions, OpenSearch; IaC: Terraform/CDK; cost/perf/resiliency" },
+    { "title": "DevOps & SRE", "value": "Kubernetes, Docker, Argo CD, Helm, Jenkins, CI/CD, observability (CloudWatch, X‑Ray, Prometheus, Grafana, OpenTelemetry), blue/green & canary, incident response" },
+    { "title": "Security & Compliance", "value": "IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness" },
+    { "title": "AI/LLM & Evaluation", "value": "RAG/agentic workflows (LangChain/LangGraph), vector search (pgvector/MongoDB), prompt guardrails, latency/quality/cost evaluation, telemetry for experiments" }
   ],
   "experience": [
     {
@@ -70,110 +28,96 @@
       "company": "2K GROUP",
       "companyLink": "https://www.2kgroup.com/",
       "period": "07/2022 - Current",
-      "description": "At 2K Group, I held a role as a Golang Developer, Team Leader of the Backend, and Chief Architect for the EvenPlay project (https://www.evenplay.com). As part of this game development project, I took on multiple responsibilities, including backend development, team management, and architectural design.",
+      "description": "Golang Developer, Backend Team Lead, and Chief Architect for EvenPlay (https://www.evenplay.com). Led design and delivery of high‑throughput backend services and platform capabilities under tight deadlines.",
       "keyContributions": [
-        "**Backend Development:** Played a pivotal role in developing the backend infrastructure of the game, ensuring efficient and reliable gameplay mechanics and server-side functionalities.",
-        "**Team Leadership and Mentoring:** Led a team of developers, providing guidance, support, and mentorship to ensure successful project execution and individual growth.",
-        "**Cloud & Orchestration:** Orchestrated the deployment of the game platform on AWS using Kubernetes (Amazon EKS) with Infrastructure as Code (Terraform). Provisioned and integrated managed services such as SQS, SNS, and RDS to enhance scalability, reliability, and operational efficiency.",
-        "**CI/CD & GitOps:** Built automated build, test, and deployment pipelines with Jenkins; implemented GitOps using Argo CD and Helm charts for reliable, repeatable releases.",
-        "**Python & Computer Vision:** Built Python-based services employing machine learning for body and face detection, and integrated a robust facial recognition capability into gameplay flows.",
-        "**Game Intelligence:** Applied machine learning for gameplay parameter estimation and procedural content generation (new level generation) to enhance player experience.",
-        "**Hands-on Leadership:** Led the team while delivering the majority of the core backend components and features, setting standards and mentoring engineers."
+        "Designed and implemented core Go services with async I/O, caching, and efficient data models; emphasized latency, throughput, and observability.",
+        "Led and mentored backend team; established code quality gates, performance budgets, and incident playbooks.",
+        "Cloud & Orchestration: EKS (Kubernetes) on AWS, Terraform IaC; integrated SQS/SNS/RDS; tuned autoscaling and cost controls.",
+        "Built CI/CD with Jenkins; implemented GitOps (Argo CD, Helm) for repeatable, low‑risk releases.",
+        "Python CV services (body/face detection) and robust face recognition integration.",
+        "Applied ML for gameplay parameter estimation and procedural level generation; instrumented experiments and telemetry.",
+        "Hands‑on delivery of critical backend components; set performance SLOs and tracing/metrics dashboards (Prometheus/Grafana)."
       ],
-      "impact": "Under high pressure, delivered quick, high-quality solutions to architectural and code-level challenges; improved system reliability, maintainability, and traceability for faster issue identification and resolution."
+      "impact": "Improved reliability and latency consistency; accelerated delivery cadence while maintaining code quality and traceability."
     },
     {
       "title": "Senior Software Engineer & Team Leader",
       "company": "Billing Platform",
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2021 - 07/2022",
-      "pageBreak": true,
-      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through application-level encryption. Leveraging my skills in AWS, KMS (Key Management Service), Java, Kotlin, Spring Boot, and microservices, I successfully implemented encryption mechanisms to safeguard sensitive data.",
+      "description": "Led application‑level encryption and OAuth2 across microservices (Java/Kotlin, Spring Boot) with AWS KMS.",
       "keyContributions": [
-        "**Application Level Encryption:** Led the development and implementation of robust encryption techniques to protect application data, ensuring confidentiality and integrity.",
-        "**Oauth2 Implementation:** Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience. These initiatives not only bolstered the security of the BillingPlatform but also ensured compliance with industry standards and regulations. My collaborative leadership style and technical expertise were instrumental in achieving these milestones."
+        "Application‑level encryption design and implementation; centralized key management with AWS KMS.",
+        "OAuth2/OIDC rollout across services; uniform security posture and simpler auth flows.",
+        "Refined service boundaries and DDD patterns, improving maintainability and testability."
       ],
-      "impact": "Strengthened data protection and compliance, reduced security risk, and streamlined authentication across microservices."
+      "impact": "Strengthened data protection/compliance and simplified authentication across the platform."
     },
     {
       "title": "Senior Software Engineer & Team Leader",
       "company": "GoldenPay",
       "companyLink": "https://www.2kgroup.com/",
       "period": "05/2020 - 05/2021",
-      "pageBegin": true,
-      "description": "As the Chief Architect and Team Leader at Goldenpay, I provided strategic guidance and technical leadership for the development of a cutting-edge payment gateway system. Leveraging Java, Kotlin, and microservices, I focused on transitioning from a monolithic architecture to a microservices-based approach, driving improved scalability, flexibility, and maintainability.",
+      "description": "Chief Architect and Team Lead for a modernized payment gateway. Focus on reliability, performance, and security.",
       "keyContributions": [
-        "**Microservices Transformation:** Led the initiative to redesign and reimplement the existing monolithic payment gateway application into a scalable and resilient microservices architecture, ensuring seamless integration and collaboration between services.",
-        "**Performance and Security Enhancements:** Implemented robust security measures and optimized performance through careful design and implementation choices, resulting in increased transaction efficiency and enhanced data protection.",
-        "**Cross-Functional Team Leadership:** Oversaw and mentored a team of developers, guiding them through the architectural transformation, fostering collaboration, and ensuring the timely delivery of high-quality code."
+        "Drove migration from monolith to microservices (Java/Kotlin) with resilient communication and observability.",
+        "Performance/security improvements across the transaction path; better throughput and defensibility.",
+        "Mentored developers and coordinated cross‑functional delivery."
       ],
-      "impact": "Accelerated time-to-market, improved system reliability and throughput, and strengthened security and compliance posture."
+      "impact": "Improved system throughput and reliability; reduced operational risk and time‑to‑market."
     },
     {
       "title": "Software Engineer/Architect",
       "company": "Crossover",
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2017 - 12/2019",
-      "description": "**Aurora — CxProcess & M1 AlertFind:** Contributed to two key Aurora portfolio products focused on process orchestration and mission-critical alerting.",
+      "description": "Aurora — CxProcess & M1 AlertFind: modernization of Java platforms for process orchestration and alerting.",
       "responsibilities": [
-        "Modernized legacy Java applications by designing a higher-level API layer to decouple UI from core services.",
-        "Refactored and reconnected existing backend services to align with the new API contracts and domain boundaries.",
-        "Built a high-level Angular application and integrated it with the newly modernized REST APIs."
+        "Introduced a higher‑level API layer to decouple UI and services; refactored services to new contracts.",
+        "Built an Angular front‑end and integrated with modernized REST APIs."
       ],
-      "impact": "Reduced coupling, improved maintainability, and enabled iterative migration without disrupting existing operations."
+      "impact": "Reduced coupling, improved maintainability, and enabled incremental migration."
     },
     {
       "title": "Java backend developer",
       "company": "Apexx",
       "companyLink": "javascript:",
       "period": "11/2015 - 04/2017",
-      "impact": "Contributed to backend service stability and delivery; improved reliability and code quality across core modules."
+      "impact": "Contributed to core backend stability and reliability; improved code quality in critical modules."
     },
     {
       "title": "Java backend developer",
       "company": "Baku State University",
       "companyLink": "javascript:",
       "period": "01/2014 - 11/2015",
-      "description": "**E-University — Student & Education Management System:** Main university platform covering the full academic lifecycle: student admissions/entrance, electronic journal, pointing/grading, reporting/analytics, lesson scheduling, and more.",
+      "description": "E‑University — Student & Education Management System covering full academic lifecycle.",
       "techStack": "Monolithic Java backend, PostgreSQL database, Sencha with GWT/GXT for the UI.",
-      "impact": "Through this project I gained significant knowledge in higher-education processes and university education management."
+      "impact": "Gained deep domain knowledge in complex business workflows and reporting pipelines."
     },
     {
       "title": "Freelancer",
       "company": "",
       "companyLink": "",
       "period": "03/2011 - 01/2014",
-      "impact": "Delivered end-to-end solutions for small clients; accelerated go-lives and built repeat engagements through reliable delivery."
+      "impact": "Delivered end‑to‑end solutions for small clients with consistent, reliable delivery and repeat engagements."
     }
   ],
   "aiRnD": {
-    "note": "The following represent prototypes/experiments and proofs-of-concept (not shipped production systems).",
+    "note": "The following represent prototypes/experiments and proofs‑of‑concept (not production systems).",
     "highlights": [
-      "Designed RAG and agentic workflows with LangGraph/LangChain and custom-built workflow system; explored vector databases (MongoDB vector/Postgresql pgvector); hybrid retrieval and re-ranking.",
-      "Prototyped AI application architecture and safety patterns: prompt design/guardrails, hallucination mitigation",
-      "Set up evaluation/observability for experiments: scenario-based A/B tests, MPC-style performance/quality analysis; telemetry (OpenTelemetry/Prometheus); cost/latency studies."
+      "Designed RAG/agentic workflows with LangGraph/LangChain and a custom workflow kernel; explored vector stores (pgvector/MongoDB vector), hybrid retrieval, and re‑ranking.",
+      "Built experiment evaluation harness (scenario‑based A/B, latency/quality/cost) with telemetry (OpenTelemetry/Prometheus).",
+      "Applied safety/guardrails thinking to model‑driven workflows; analyses useful for signal quality/robustness in trading research."
     ]
   },
   "openSource": [
-    {
-      "title": "https://github.com/apibrew/apibrew",
-      "link": "https://github.com/apibrew/apibrew",
-      "description": "Low Code system, where you can build entire Rest APIs from UI"
-    },
-    {
-      "title": "https://github.com/tislib/logi",
-      "link": "https://github.com/tislib/logi",
-      "description": "DSL language definition system, where you can define your own dsl syntax and logi will parse it."
-    },
-    {
-      "title": "https://github.com/tislib/download-delegator",
-      "link": "https://github.com/tislib/download-delegator",
-      "description": "A tool for parallel web page downloading, compatible with EC2 and AWS Lambda, enabling efficient bulk downloads."
-    }
+    { "title": "https://github.com/apibrew/apibrew", "link": "https://github.com/apibrew/apibrew", "description": "Low‑code platform to build REST APIs from UI" },
+    { "title": "https://github.com/tislib/logi", "link": "https://github.com/tislib/logi", "description": "DSL definition system for custom language parsing" },
+    { "title": "https://github.com/tislib/download-delegator", "link": "https://github.com/tislib/download-delegator", "description": "Parallel web downloader for EC2/Lambda bulk fetches" }
   ],
   "certifications": [
-    "AWS Certified Solutions Architect – Professional (in-progress, scheduled)",
-    "Certificate: Semi-Finalist of ACM Programming Contest in Georgia, 2013",
+    "AWS Certified Solutions Architect – Professional (in‑progress, scheduled)",
+    "Certificate: Semi‑Finalist of ACM Programming Contest in Georgia, 2013",
     "Certificate: High Achievement certificate of ACM Programming Contest, 2013"
   ],
   "education": [
