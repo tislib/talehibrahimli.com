@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Taleh Ibrahimli",
-    "headline": "Lead/Senior Software Engineer · Cloud Platform Architect (AWS, Java/Golang) with AI/LLM experience",
+    "headline": "Lead/Senior Software Engineer · Cloud Platform Architect (AWS, Java/Golang/Rust/C++) · High Load & Low-Latency Systems",
     "social": [
       {
         "icon": "fa-brands fa-linkedin",
@@ -29,15 +29,15 @@
     ],
     "location": "Barcelona, Spain"
   },
-  "summary": "Lead/Senior Software Engineer with 10+ years building large-scale, cloud-native platforms. Deep hands-on experience across AWS—spanning architecture design, scalability, cost optimization, and reliability engineering. Proven track record leading cross-functional teams and driving full lifecycle delivery, from backend and data systems to operations. Expert in Java, Kotlin, Golang, and modern backend design. Recent focus includes exploring AI/LLM solutions, with R&D experience in RAG workflows, lightweight model serving, and evaluation frameworks.",
+  "summary": "Lead/Senior Software Engineer with 10+ years building large-scale, high-load, cloud-native platforms. Deep hands-on experience in low-latency concurrency and AWS architecture—spanning scalability, cost optimization, and reliability engineering. Proven track record leading cross-functional teams and driving full lifecycle delivery, from backend and data systems to operations. Expert in Java, Kotlin, Golang, Rust, C/C++, and modern backend design. Recent focus includes exploring AI/LLM solutions, with R&D experience in RAG workflows, lightweight model serving, and evaluation frameworks.",
   "skills": [
     {
       "title": "Programming Languages",
-      "value": "Java (8+ yrs), Go (3+ yrs), Kotlin, Rust, TypeScript/JavaScript, Python"
+      "value": "Java (8+ yrs), Go (3+ yrs), Kotlin, Rust, C/C++, TypeScript/JavaScript, Python"
     },
     {
       "title": "Backend & Distributed Systems",
-      "value": "Spring Boot, Spring WebFlux/Reactive (Project Reactor, Netty, RxJava), REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS"
+      "value": "High-load & low-latency design, Spring Boot, Spring WebFlux/Reactive (Project Reactor, Netty, RxJava), REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS"
     },
     {
       "title": "Cloud Architecture & Platform (AWS)",
