@@ -53,7 +53,7 @@
     },
     {
       "title": "Security & Compliance",
-      "value": "IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
+      "value": "HSM, CloudHSM, KMS, PKI infrastructure, Cryptography, IAM, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
     },
     {
       "title": "Technical Leadership & Practices",
@@ -103,9 +103,10 @@
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2021 - 07/2022",
       "pageBreak": true,
-      "description": "Key contributor to the platform's security architecture. Leveraged AWS KMS, Java, and Spring Boot to implement application-level encryption.",
+      "description": "Key contributor to the platform's security architecture. Leveraged AWS CloudHSM, KMS, PKI infrastructure, and Cryptography (Java, Spring Boot) to implement robust application-level encryption and secure key management.",
       "keyContributions": [
-        "<b>Application Level Encryption:</b> Led the development of encryption techniques to protect application data, ensuring confidentiality.",
+        "<b>Application Level Encryption & HSM:</b> Led the development of encryption techniques using AWS CloudHSM and KMS to protect application data, ensuring high-assurance security and confidentiality.",
+        "<b>PKI & Cryptography:</b> Implemented PKI infrastructure and cryptographic protocols for secure service communication and data integrity.",
         "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized security mechanism."
       ],
       "impact": "Strengthened data protection and streamlined authentication across the microservices ecosystem."

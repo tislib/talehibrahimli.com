@@ -56,6 +56,10 @@
       "value": "PostgreSQL (pgvector), MongoDB (Vector Search), Redis, OpenSearch/Elasticsearch, Redshift; streaming pipelines; OLTP/OLAP design"
     },
     {
+      "title": "Security & Compliance",
+      "value": "HSM, CloudHSM, KMS, PKI infrastructure, Cryptography, IAM, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
+    },
+    {
       "title": "Leadership & Practices",
       "value": "AI/LLM Roadmaps, Architecture & platform design, team leadership/mentoring, code reviews, DDD, TDD, Agile/Scrum/Kanban"
     }
@@ -82,12 +86,13 @@
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2021 - 07/2022",
       "pageBreak": true,
-      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through application-level encryption and secure microservices architecture.",
+      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through AWS CloudHSM, KMS, PKI infrastructure, and Cryptography. Leveraging Java, Kotlin, Spring Boot, and microservices, I successfully implemented robust encryption and secure key management mechanisms.",
       "keyContributions": [
-        "<b>Application Level Encryption:</b> Led the development and implementation of robust encryption techniques using AWS KMS to protect sensitive application data.",
-        "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized and secure authentication mechanism."
+        "<b>Application Level Encryption & HSM:</b> Led the development and implementation of robust encryption techniques using AWS CloudHSM and KMS to protect application data, ensuring confidentiality and integrity.",
+        "<b>PKI & Cryptography:</b> Established PKI infrastructure and cryptographic standards for secure service-to-service communication.",
+        "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience."
       ],
-      "impact": "Strengthened data protection and compliance, reducing security risk across the billing ecosystem."
+      "impact": "Strengthened data protection and compliance, reduced security risk, and streamlined authentication across the microservices ecosystem."
     },
     {
       "title": "Senior Software Engineer & Team Leader",

@@ -53,7 +53,7 @@
     },
     {
       "title": "Security & Compliance",
-      "value": "IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
+      "value": "HSM, CloudHSM, KMS, PKI infrastructure, Cryptography, IAM, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness"
     },
     {
       "title": "Leadership & Practices",
@@ -88,10 +88,11 @@
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2021 - 07/2022",
       "pageBreak": true,
-      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through application-level encryption. Leveraging my skills in AWS, KMS (Key Management Service), Java, Kotlin, Spring Boot, and microservices, I successfully implemented encryption mechanisms to safeguard sensitive data.",
+      "description": "As a Software Engineer and Team Leader at BillingPlatform, I played a pivotal role in enhancing the application's security through AWS CloudHSM, KMS, PKI infrastructure, and Cryptography. Leveraging Java, Kotlin, Spring Boot, and microservices, I successfully implemented robust encryption and secure key management mechanisms.",
       "keyContributions": [
-        "<b>Application Level Encryption:</b> Led the development and implementation of robust encryption techniques to protect application data, ensuring confidentiality and integrity.",
-        "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience. These initiatives not only bolstered the security of the BillingPlatform but also ensured compliance with industry standards and regulations. My collaborative leadership style and technical expertise were instrumental in achieving these milestones."
+        "<b>Application Level Encryption & HSM:</b> Led the development and implementation of robust encryption techniques using AWS CloudHSM and KMS to protect application data, ensuring confidentiality and integrity.",
+        "<b>PKI & Cryptography:</b> Established PKI infrastructure and cryptographic standards for secure service-to-service communication.",
+        "<b>Oauth2 Implementation:</b> Orchestrated the integration of Oauth2 authentication across microservices, establishing a centralized authentication mechanism for enhanced security and seamless user experience."
       ],
       "impact": "Strengthened data protection and compliance, reduced security risk, and streamlined authentication across microservices."
     },

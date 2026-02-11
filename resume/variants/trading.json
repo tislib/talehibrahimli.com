@@ -19,7 +19,7 @@
     { "title": "Data & Streaming", "value": "Kafka/Kinesis/SQS, REST/gRPC, Redis caching, PostgreSQL/MySQL, DynamoDB, OpenSearch/Elasticsearch; time‑series design, OLTP/OLAP, batch/stream processing" },
     { "title": "Cloud & Platform (AWS)", "value": "VPC, EC2, ALB/NLB, Lambda, API Gateway, S3/CloudFront, RDS/Aurora, DynamoDB, ECR/ECS/EKS, EventBridge, SQS/SNS, Kinesis, Step Functions, OpenSearch; IaC: Terraform/CDK; cost/perf/resiliency" },
     { "title": "DevOps & SRE", "value": "Kubernetes, Docker, Argo CD, Helm, Jenkins, CI/CD, observability (CloudWatch, X‑Ray, Prometheus, Grafana, OpenTelemetry), blue/green & canary, incident response" },
-    { "title": "Security & Compliance", "value": "IAM, KMS, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness" },
+    { "title": "Security & Compliance", "value": "HSM, CloudHSM, KMS, PKI infrastructure, Cryptography, IAM, WAF, Cognito, OAuth2/OIDC, Secrets Manager; encryption at rest/in transit; GDPR/PCI awareness" },
     { "title": "AI/LLM & Evaluation", "value": "RAG/agentic workflows (LangChain/LangGraph), vector search (pgvector/MongoDB), prompt guardrails, latency/quality/cost evaluation, telemetry for experiments" }
   ],
   "experience": [
@@ -45,11 +45,11 @@
       "company": "Billing Platform",
       "companyLink": "https://www.2kgroup.com/",
       "period": "04/2021 - 07/2022",
-      "description": "Led application‑level encryption and OAuth2 across microservices (Java/Kotlin, Spring Boot) with AWS KMS.",
+      "description": "Led security architecture at BillingPlatform, implementing AWS CloudHSM, KMS, PKI infrastructure, and Cryptography across microservices (Java/Kotlin, Spring Boot).",
       "keyContributions": [
-        "Application‑level encryption design and implementation; centralized key management with AWS KMS.",
-        "OAuth2/OIDC rollout across services; uniform security posture and simpler auth flows.",
-        "Refined service boundaries and DDD patterns, improving maintainability and testability."
+        "<b>Security & HSM:</b> Designed and implemented application-level encryption using AWS CloudHSM and KMS for high-assurance data protection.",
+        "<b>PKI & Cryptography:</b> Established PKI infrastructure and cryptographic protocols for secure service communication.",
+        "<b>OAuth2/OIDC:</b> Rolled out centralized authentication across the platform; refined service boundaries and DDD patterns."
       ],
       "impact": "Strengthened data protection/compliance and simplified authentication across the platform."
     },
