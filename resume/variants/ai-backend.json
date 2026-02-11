@@ -37,11 +37,11 @@
     },
     {
       "title": "Programming Languages",
-      "value": "Python (AI/ML), Java (8+ yrs), Go (5+ yrs), Kotlin, Rust, C/C++, TypeScript/JavaScript"
+      "value": "Rust, Python (AI/ML), Java (8+ yrs), Go (5+ yrs), Kotlin, C/C++, TypeScript/JavaScript"
     },
     {
-      "title": "Backend & Distributed Systems",
-      "value": "High-load & low-latency design, Spring Boot, Spring WebFlux/Reactive, REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS, Microservices"
+      "title": "High Load, Low Latency & Distributed Systems",
+      "value": "High-load & low-latency design, Distributed Systems, Spring Boot, Spring WebFlux/Reactive, REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS, Microservices"
     },
     {
       "title": "Cloud Architecture & Platform (AWS)",
