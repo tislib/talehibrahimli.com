@@ -121,6 +121,13 @@
                     <li>
                         <b><a target="_blank" href="{{link}}">{{link}}</a>:</b>
                         {{description}}
+                        {{#if highlights}}
+                            <ul>
+                                {{#each highlights}}
+                                    <li>{{{this}}}</li>
+                                {{/each}}
+                            </ul>
+                        {{/if}}
                     </li>
                 {{/each}}
             </ul>

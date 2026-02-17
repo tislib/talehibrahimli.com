@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Taleh Ibrahimli",
-    "headline": "Senior Backend/Platform Engineer · High-Load, Low-Latency & Cloud (Go/Java/Rust/C++, AWS) · Quant Backtesting Systems",
+    "headline": "Senior Backend/Platform Engineer · High-Load, Ultra-Low Latency Distributed Systems (Go/Java/Rust/C++, AWS)",
     "social": [
       { "icon": "fa-brands fa-linkedin", "link": "https://www.linkedin.com/in/talehibrahimli/", "text": "in/talehibrahimli" },
       { "icon": "fa-solid fa-mobile", "text": "+34600857686" },
@@ -11,10 +11,10 @@
     ],
     "location": "Barcelona, Spain · Open to relocation: Amsterdam, NL"
   },
-  "summary": "Senior Backend/Platform Engineer with 10+ years building high-throughput, high-load, fault-tolerant services on AWS and Kubernetes (Go/Java/Rust). Hands-on with low-latency concurrency, streaming, observability, and cost/perf tuning. Built a proprietary backtesting and pattern-analysis system (Go) to research price dynamics; implemented data pipelines, simulation, and signal evaluation. Strong fit for market data/backtesting platforms, research tooling, and low-latency/backend roles in trading firms. Leadership experience (team lead/architect), rigorous engineering practices (including C/C++), and recent R&D in AI/LLM evaluation applied to signal quality and guardrails.",
+  "summary": "Senior Backend/Platform Engineer with 10+ years building high-throughput, high-load distributed systems and ultra-low latency services on AWS (Go/Java/Rust). Deeply experienced in CPU profiling with perf, low-level programming, and performance tuning. Built proprietary backtesting and market data systems; implemented low-latency data pipelines and signal evaluation. Strong fit for HFT/trading infrastructure and low-latency backend roles. Leadership experience and recent R&D in AI/LLM evaluation.",
   "skills": [
     { "title": "Programming Languages", "value": "Rust, Go (5+ yrs), Java (8+ yrs), Kotlin, C/C++, TypeScript/JavaScript, Python" },
-    { "title": "High Load, Low Latency & Distributed Systems", "value": "Distributed Systems, Goroutines/channels, lock-free patterns, memory/GC awareness (Go/Java), Netty/Reactor, async I/O, profiling (pprof, JFR), Linux perf basics, batching, backpressure" },
+    { "title": "High Load, Ultra-Low Latency & Distributed Systems", "value": "Distributed Systems, Goroutines/channels, lock-free patterns, memory/GC awareness (Go/Java), Netty/Reactor, async I/O, CPU profiling with perf, low-level programming, batching, backpressure" },
     { "title": "Market/Quant Platform Concepts", "value": "Backtesting simulation, event/time‑bar processing, rolling features, risk/position PnL calc, slippage/fees modeling, Monte Carlo basics, signal evaluation (precision/recall, drawdown), data alignment" },
     { "title": "Data & Streaming", "value": "Kafka/Kinesis/SQS, REST/gRPC, Redis caching, PostgreSQL/MySQL, DynamoDB, OpenSearch/Elasticsearch; time‑series design, OLTP/OLAP, batch/stream processing" },
     { "title": "Cloud & Platform (AWS)", "value": "VPC, EC2, ALB/NLB, Lambda, API Gateway, S3/CloudFront, RDS/Aurora, DynamoDB, ECR/ECS/EKS, EventBridge, SQS/SNS, Kinesis, Step Functions, OpenSearch; IaC: Terraform/CDK; cost/perf/resiliency" },
@@ -111,6 +111,16 @@
     ]
   },
   "openSource": [
+    {
+      "title": "https://github.com/tislib/roda-state",
+      "link": "https://github.com/tislib/roda-state",
+      "description": "Zero-copy, lock-free multithreaded pipeline in Rust designed for ultra-low latency environments. By heavily profiling the CPU architecture, it bypasses standard multi-threading performance traps to strictly saturate the L1 cache bandwidth.",
+      "highlights": [
+        "Engineered a zero-copy, lock-free multithreaded pipeline in Rust, achieving a peak algorithmic throughput of 58.7 million elements per second (MEPS) in CPU-bound stateful workloads.",
+        "Processed 24 million real-world MBO market data events with an unloaded median latency of 1.2µs, completely decoupling disk I/O bottlenecks from the algorithmic hot path.",
+        "Defeated cross-core MESI protocol overhead by implementing dynamic block processing (read_window), reducing L1 cache misses to 0.73% and boosting IPC to 1.93."
+      ]
+    },
     { "title": "https://github.com/apibrew/apibrew", "link": "https://github.com/apibrew/apibrew", "description": "Low‑code platform to build REST APIs from UI" },
     { "title": "https://github.com/tislib/logi", "link": "https://github.com/tislib/logi", "description": "DSL definition system for custom language parsing" },
     { "title": "https://github.com/tislib/download-delegator", "link": "https://github.com/tislib/download-delegator", "description": "Parallel web downloader for EC2/Lambda bulk fetches" }

@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Taleh Ibrahimli",
-    "headline": "Senior Full-Stack Software Engineer · React, Angular & Cloud Platform Architect (AWS, Java/Golang/TypeScript)",
+    "headline": "Senior Full-Stack Software Engineer · High-Load Distributed Systems · Ultra-Low Latency Backend Architect (AWS, Java/Go/Rust)",
     "social": [
       {
         "icon": "fa-brands fa-linkedin",
@@ -29,7 +29,7 @@
     ],
     "location": "Barcelona, Spain"
   },
-  "summary": "Senior Full-Stack Software Engineer with 10+ years of experience building large-scale, high-load, cloud-native platforms. Expert in both modern frontend (React, Angular) and robust backend (Java, Go, Kotlin) architectures. Deep hands-on experience in AWS cloud infrastructure, low-latency concurrency, and full-lifecycle delivery—from intuitive UI/UX to scalable distributed systems. Proven track record leading cross-functional teams and bridging the gap between product requirements and technical excellence.",
+  "summary": "Senior Full-Stack Software Engineer with 10+ years building large-scale, high-load distributed systems and ultra-low latency cloud platforms. Expert in modern frontend (React/Angular) and high-performance backend (Java/Go/Rust). Deeply experienced in CPU profiling (perf), low-level programming, and AWS infrastructure—spanning full-lifecycle delivery from intuitive UI to optimized distributed systems.",
   "skills": [
     {
       "title": "Frontend Development",
@@ -40,8 +40,8 @@
       "value": "Rust, Java (8+ yrs), Go (5+ yrs), TypeScript/JavaScript (7+ yrs), Kotlin, C/C++, Python"
     },
     {
-      "title": "High Load, Low Latency & Distributed Systems",
-      "value": "High-load & low-latency design, Distributed Systems, Spring Boot, Spring WebFlux/Reactive, REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS"
+      "title": "High Load, Ultra-Low Latency & Distributed Systems",
+      "value": "High-load & ultra-low latency design, High-load Distributed Systems, CPU profiling with perf, low-level programming, Spring Boot, Spring WebFlux/Reactive, REST/gRPC, caching (Redis), messaging (Kafka/Kinesis/SQS), event-driven/CQRS"
     },
     {
       "title": "Cloud Architecture & Platform (AWS)",
@@ -160,6 +160,16 @@
     ]
   },
   "openSource": [
+    {
+      "title": "https://github.com/tislib/roda-state",
+      "link": "https://github.com/tislib/roda-state",
+      "description": "Zero-copy, lock-free multithreaded pipeline in Rust designed for ultra-low latency environments. By heavily profiling the CPU architecture, it bypasses standard multi-threading performance traps to strictly saturate the L1 cache bandwidth.",
+      "highlights": [
+        "Engineered a zero-copy, lock-free multithreaded pipeline in Rust, achieving a peak algorithmic throughput of 58.7 million elements per second (MEPS) in CPU-bound stateful workloads.",
+        "Processed 24 million real-world MBO market data events with an unloaded median latency of 1.2µs, completely decoupling disk I/O bottlenecks from the algorithmic hot path.",
+        "Defeated cross-core MESI protocol overhead by implementing dynamic block processing (read_window), reducing L1 cache misses to 0.73% and boosting IPC to 1.93."
+      ]
+    },
     {
       "title": "https://github.com/apibrew/apibrew",
       "link": "https://github.com/apibrew/apibrew",
