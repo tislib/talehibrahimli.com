@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Taleh Ibrahimli",
-    "headline": "Staff Systems Architect (Rust/Go/Java) · Ultra-Low Latency (1.2µs) · High-Load (58M+ MEPS) · Cloud Platform (AWS)",
+    "headline": "Lead Software Engineer (Rust/Go/Java) · Ultra-Low Latency (1.2µs) · High-Load (58M+ MEPS) · Cloud Platform (AWS)",
     "social": [
       {
         "icon": "fa-brands fa-linkedin",
@@ -29,7 +29,7 @@
     ],
     "location": "Barcelona, Spain"
   },
-  "summary": "Systems Architect and Technical Lead with 10+ years of experience specializing in ultra-low latency (1.2µs) and high-load distributed systems (58M+ MEPS). Expert in leading organizational technical roadmaps and migrating legacy monoliths to resilient, cost-optimized microservices. Experienced in leading cross-functional development teams while remaining a high-impact hands-on contributor (Player-Coach).",
+  "summary": "Lead Software Engineer and Technical Lead with 10+ years of experience specializing in ultra-low latency (1.2µs) and high-load distributed systems (58M+ MEPS). Expert in migrating legacy monoliths to resilient, cost-optimized microservices while leading cross-functional development teams as a high-impact hands-on contributor (Player-Coach).",
   "skills": [
     {
       "title": "Core Expertise: High Load & Ultra-Low Latency",
@@ -89,11 +89,11 @@
   ],
   "experience": [
     {
-      "title": "Staff Software Engineer & Technical Lead",
+      "title": "Lead Software Engineer & Technical Lead",
       "company": "2K Group",
       "companyLink": "https://www.2kgroup.com/",
       "period": "07/2022 - Current",
-      "description": "Principal Engineer and Technical Lead for the EvenPlay project. Spearheaded technical vision and backend roadmap, managing a team of 8 engineers while maintaining a high-impact hands-on presence.",
+      "description": "Lead Software Engineer and Technical Lead for the EvenPlay project. Spearheaded technical vision and backend roadmap, managing a team of 8 engineers while maintaining a high-impact hands-on presence.",
       "keyContributions": [
         "<b>Architectural Leadership:</b> Defined the microservices roadmap and organizational technical standards. Mentored senior engineers on Go/AWS best practices and distributed systems design.",
         "<b>Backend Engineering (Hands-on):</b> Developed core high-load backend infrastructure using Golang, ensuring low-latency gameplay mechanics and saturating available system throughput.",
@@ -104,7 +104,7 @@
       "impact": "Delivered critical high-load components while scaling the engineering organization and improving delivery predictability."
     },
     {
-      "title": "Staff Software Engineer (Security & Platform)",
+      "title": "Senior Software Engineer (Security & Platform)",
       "company": "BillingPlatform",
       "companyLink": "https://billingplatform.com/",
       "period": "04/2021 - 07/2022",
@@ -118,7 +118,7 @@
       "impact": "Strengthened data protection posture and enabled secure onboarding of Fortune 500 clients requiring strict compliance."
     },
     {
-      "title": "Chief Architect / Technical Lead",
+      "title": "Lead Software Engineer",
       "company": "GoldenPay",
       "companyLink": "https://goldenpay.az/",
       "period": "05/2020 - 05/2021",
@@ -133,7 +133,7 @@
       "impact": "Modernized the national payment infrastructure, delivering 7x scaling capabilities with zero reported downtime during migration."
     },
     {
-      "title": "Senior Software Engineer / Architect",
+      "title": "Senior Software Engineer",
       "company": "Crossover",
       "companyLink": "https://www.crossover.com/",
       "period": "04/2017 - 12/2019",
@@ -166,7 +166,7 @@
       "company": "",
       "companyLink": "",
       "period": "03/2011 - 01/2014",
-      "impact": "Delivered end-to-end solutions for small clients; accelerated go-lives and built repeat engagements through reliable delivery."
+      "impact": "Delivered end-to-end solutions for small clients; accelerated go-lives."
     }
   ],
   "aiRnD": {
