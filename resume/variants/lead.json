@@ -37,7 +37,7 @@
     },
     {
       "title": "Backend Engineering & Languages",
-      "value": "<b>Expert:</b> Rust, Java (8+ yrs), Go (5+ yrs). <b>Proficient:</b> Kotlin, C/C++, TypeScript/JavaScript, Python; Spring Boot, Spring WebFlux/Reactive (Netty, RxJava), gRPC, REST, Caching (Redis)."
+      "value": "<b>Expert:</b> Rust, Java (8+ yrs), Go (5+ yrs). <b>Proficient:</b> Kotlin, C/C++, WASM, TypeScript/JavaScript, Python; Spring Boot, Spring WebFlux/Reactive (Netty, RxJava), gRPC, REST, Caching (Redis)."
     },
     {
       "title": "Cloud Architecture & Platform (AWS)",
@@ -61,6 +61,16 @@
     }
   ],
   "openSource": [
+    {
+      "title": "roda-ledger",
+      "link": "https://github.com/tislib/roda-ledger",
+      "description": "A high-performance, durable, and crash-consistent financial ledger and transaction executor built in Rust, optimized for microsecond-level latency and millions of transactions per second.",
+      "highlights": [
+        "Engineered a pipelined execution model (Core-Per-Stage) using lock-free ArrayQueues to eliminate thread contention and maximize mechanical sympathy.",
+        "Achieved a peak throughput of 2.79 Million tx/s for deposits and 1.70 Million tx/s for transfers with sub-microsecond average latency.",
+        "Implemented strict durability via Write-Ahead Logging (WAL) and automatic state recovery through snapshot loading and WAL replay."
+      ]
+    },
     {
       "title": "https://github.com/tislib/roda-state",
       "link": "https://github.com/tislib/roda-state",
@@ -141,7 +151,7 @@
       "keyContributions": [
         "<b>API Modernization:</b> Modernized legacy Java applications by architecting a high-level API layer, enabling UI decoupling and faster feature iteration.",
         "<b>Refactoring & Domain Alignment:</b> Led the refactoring of backend services to align with new domain boundaries and RESTful API contracts.",
-        "<b>Full-Stack Integration:</b> Developed enterprise Angular applications integrated with modernized backend services, improving UX and system maintainability."
+        "<b>Full-Stack Integration:</b> Developed enterprise Angular/TypeScript applications integrated with modernized backend services, improving UX and system maintainability."
       ],
       "impact": "Successfully migrated legacy systems to modern architectures while maintaining 99.99% availability for mission-critical alerting."
     },
