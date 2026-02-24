@@ -13,7 +13,7 @@ disqusShortname = "talehibrahimli"
 author = "Taleh Ibrahimli"
 description = "Taleh Ibrahimli's personal website"
 keywords = "blog,developer,personal"
-info = "Project Manager & Java Software Architect"
+info = "Lead Software Engineer (Rust/Go/Java) · Ultra-Low Latency · High-Load · Cloud Platform (AWS)"
 avatarURL = "images/avatar.jpg"
 
 #footerContent = "Powered by Taleh Ibrahimli"
@@ -62,7 +62,7 @@ target = "_blank"
 name = "LinkedIn"
 icon = "fa fa-linkedin"
 weight = 4
-url = "https://www.linkedin.com/in/talehibrahimli"
+url = "https://www.linkedin.com/in/talehibrahimli/"
 target = "_blank"
 
 [[params.social]]

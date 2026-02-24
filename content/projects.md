@@ -7,63 +7,37 @@ draft: false
 
 I'm passionate about creating tools and solutions that help developers build better software. Below you'll find information about my projects and open source contributions.
 
-## Projects
+## Open Source Projects
 
-### [ApiBrew](https://apibrew.io)
+### [roda-ledger](https://github.com/tislib/roda-ledger)
 
-ApiBrew is a SaaS tool for creating CRUD APIs with minimal effort. It allows developers to:
+A high-performance, durable, and crash-consistent financial ledger and transaction executor built in Rust, optimized for microsecond-level latency and millions of transactions per second.
 
-- Define data models and automatically generate REST APIs
-- Handle authentication, authorization, and data validation
-- Scale seamlessly with your application needs
-- Deploy to cloud or on-premises environments
+**Highlights:**
+- Engineered a pipelined execution model (Core-Per-Stage) using lock-free ArrayQueues to eliminate thread contention and maximize mechanical sympathy.
+- Achieved a peak throughput of 2.79 Million tx/s for deposits and 1.70 Million tx/s for transfers with sub-microsecond average latency.
+- Implemented strict durability via Write-Ahead Logging (WAL) and automatic state recovery through snapshot loading and WAL replay.
 
-ApiBrew significantly reduces the time and effort required to build backend services, allowing teams to focus on business logic rather than boilerplate code.
+### [roda-state](https://github.com/tislib/roda-state)
 
-## Open Source
+Zero-copy, lock-free multithreaded pipeline in Rust designed for ultra-low latency environments. By heavily profiling the CPU architecture, it bypasses standard multi-threading performance traps to strictly saturate the L1 cache bandwidth.
 
-### [ApiBrew Core](http://github.com/apibrew/apibrew)
+**Highlights:**
+- Engineered a zero-copy, lock-free multithreaded pipeline in Rust, achieving a peak algorithmic throughput of 58.7 million elements per second (MEPS) in CPU-bound stateful workloads.
+- Processed 24 million real-world MBO market data events with an unloaded median latency of 1.2µs, completely decoupling disk I/O bottlenecks from the algorithmic hot path.
+- Defeated cross-core MESI protocol overhead by implementing dynamic block processing (read_window), reducing L1 cache misses to 0.73% and boosting IPC to 1.93.
 
-The core of ApiBrew is open source and available on GitHub. This project provides the foundation for the SaaS offering while allowing developers to:
+### [apibrew](https://github.com/apibrew/apibrew)
 
-- Self-host their own instance of ApiBrew
-- Contribute to the development of the platform
-- Customize the solution for specific needs
-- Integrate with other open source tools and frameworks
+An open-source low-code backend-as-a-service that automatically generates REST/gRPC APIs, management UIs, and real-time event streams from data models.
 
-### [Logi](https://github.com/tislib/logi)
+### [logi](https://github.com/tislib/logi)
 
-Logi is a language for abstraction that allows developers to define systems declaratively. It enables you to:
+A framework for defining and parsing custom Domain Specific Languages (DSLs) with efficient AST generation and semantic validation.
 
-- Create custom domain-specific languages (DSLs) for your specific systems
-- Define complex systems with minimal effort using a declarative approach
-- Compile Logi definitions to JSON for use in your applications
-- Use the Logi Virtual Machine to load, read, and execute Logi content
+### [download-delegator](https://github.com/tislib/download-delegator)
 
-Logi is designed to be simple, flexible, and extensible, making it ideal for creating DSLs for various domains such as credit rules, chatbots, and more.
-
-### [Rapid Api](https://github.com/apibrew/rapid-api)
-
-Rapid Api is a simple API backend tool that allows you to quickly and easily create and use CRUD REST APIs. It enables you to:
-
-- Create, read, update, and delete resources through a straightforward REST interface
-- Automatically handle relationships between APIs and sub-resources
-- Store data using DynamoDB as the backend database
-- Get up and running with minimal configuration
-
-Rapid Api is designed for developers who need to prototype or build backend services quickly without sacrificing functionality or flexibility.
-
-### [Download Delegator](https://github.com/tislib/download-delegator)
-
-Download Delegator is a high concurrent webpage downloader that efficiently processes large batches of web pages. It enables you to:
-
-- Download thousands of web pages concurrently with configurable parameters
-- Compress downloaded content using various algorithms to minimize bandwidth usage
-- Execute custom JavaScript code on downloaded pages for client-side processing
-- Configure network behavior, concurrency limits, and compression settings
-- Deploy as AWS Lambda functions for massive parallel processing
-
-Download Delegator is ideal for web scraping, content archiving, and any application requiring efficient batch downloading of web content.
+A tool for parallel web page downloading, compatible with EC2 and AWS Lambda, enabling efficient bulk downloads.
 
 ---
 

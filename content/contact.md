@@ -4,14 +4,13 @@ draft: false
 ---
 
 ## Emails
-[me@talehibrahimli.com](mailto:me@talehibrahimli.com) \
-[talehsmail@gmail.com](mailto:talehsmail@gmail.com) 
+[contact@talehibrahimli.com](mailto:contact@talehibrahimli.com) 
 
 ## Phone
-[+994515957491](tel:+994515957491)
+[+34600857686](tel:+34600857686)
 
 ## Instant Messaging
-whatsapp +994515957491 \
-telegram +994515957491
+whatsapp +34600857686 \
+telegram +34600857686
 
 
