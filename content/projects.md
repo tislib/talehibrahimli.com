@@ -35,10 +35,6 @@ An open-source low-code backend-as-a-service that automatically generates REST/g
 
 A framework for defining and parsing custom Domain Specific Languages (DSLs) with efficient AST generation and semantic validation.
 
-### [download-delegator](https://github.com/tislib/download-delegator)
-
-A tool for parallel web page downloading, compatible with EC2 and AWS Lambda, enabling efficient bulk downloads.
-
 ---
 
 *More projects and contributions will be added soon.*

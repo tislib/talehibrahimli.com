@@ -90,11 +90,6 @@
       "title": "logi",
       "link": "https://github.com/tislib/logi",
       "description": "A framework for defining and parsing custom Domain Specific Languages (DSLs) with efficient AST generation and semantic validation."
-    },
-    {
-      "title": "https://github.com/tislib/download-delegator",
-      "link": "https://github.com/tislib/download-delegator",
-      "description": "A tool for parallel web page downloading, compatible with EC2 and AWS Lambda, enabling efficient bulk downloads."
     }
   ],
   "experience": [

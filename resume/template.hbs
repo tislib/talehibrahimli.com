@@ -5,7 +5,7 @@
     <title>Resume - {{profile.name}}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        {{{css}}}
+            {{{css}}}
     </style>
 </head>
 <body>
@@ -28,14 +28,16 @@
             <span class="location">{{profile.location}}</span>
         </div>
     </header>
-    <section>
-        <div class="section-header">
-            <span>Professional Summary</span>
-        </div>
-        <div class="section-content">
-            <p>{{summary}}</p>
-        </div>
-    </section>
+    {{#if summary}}
+        <section>
+            <div class="section-header">
+                <span>Professional Summary</span>
+            </div>
+            <div class="section-content">
+                <p>{{summary}}</p>
+            </div>
+        </section>
+    {{/if}}
     <section>
         <div class="section-header">
             <span>Skills</span>
@@ -46,6 +48,28 @@
                     <li>
                         <span class="skill-title"><strong>{{title}}</strong>:</span>
                         <span class="skill-value">{{value}}</span>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Open Source</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{#each openSource}}
+                    <li>
+                        <b><a target="_blank" href="{{link}}">{{link}}</a>:</b>
+                        {{description}}
+                        {{#if highlights}}
+                            <ul>
+                                {{#each highlights}}
+                                    <li>{{{this}}}</li>
+                                {{/each}}
+                            </ul>
+                        {{/if}}
                     </li>
                 {{/each}}
             </ul>
@@ -107,28 +131,6 @@
             <ul>
                 {{#each aiRnD.highlights}}
                     <li>{{{this}}}</li>
-                {{/each}}
-            </ul>
-        </div>
-    </section>
-    <section>
-        <div class="section-header">
-            <span>Open Source</span>
-        </div>
-        <div class="section-content">
-            <ul>
-                {{#each openSource}}
-                    <li>
-                        <b><a target="_blank" href="{{link}}">{{link}}</a>:</b>
-                        {{description}}
-                        {{#if highlights}}
-                            <ul>
-                                {{#each highlights}}
-                                    <li>{{{this}}}</li>
-                                {{/each}}
-                            </ul>
-                        {{/if}}
-                    </li>
                 {{/each}}
             </ul>
         </div>

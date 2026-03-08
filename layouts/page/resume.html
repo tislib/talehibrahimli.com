@@ -1,0 +1,173 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+{{ $resume := .Site.Data.resume }}
+{{ $css := resources.Get "scss/resume.scss" | toCSS | minify }}
+<style>
+    {{ $css.Content | safeCSS }}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div class="resume-download-link">
+    <a href="{{ "taleh_ibrahimli_resume.pdf" | relURL }}" target="_blank" title="Download PDF">
+        <i class="fa-solid fa-download" aria-hidden="true"></i> Download
+    </a>
+    <br>
+    <a href="javascript:window.print()" title="Print Resume">
+        <i class="fa-solid fa-print" aria-hidden="true"></i> Print
+    </a>
+</div>
+
+<main class="resume">
+    <header>
+        <div class="profile">
+            <span class="full-name">{{ $resume.profile.name }}</span>
+            <span class="headline">{{ $resume.profile.headline }}</span>
+        </div>
+        <div class="social-container">
+            {{ range $resume.profile.social }}
+                <span class="social-item"><i class="{{ .icon }}"></i>
+                    {{ if .link }}
+                        <a target="_blank" href="{{ .link }}">{{ .text }}</a>
+                    {{ else }}
+                        {{ .text }}
+                    {{ end }}
+                </span>
+            {{ end }}
+            <span class="location">{{ $resume.profile.location }}</span>
+        </div>
+    </header>
+    <section>
+        <div class="section-header">
+            <span>Professional Summary</span>
+        </div>
+        <div class="section-content">
+            <p>{{ $resume.summary }}</p>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Skills</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{ range $resume.skills }}
+                    <li>
+                        <span class="skill-title"><strong>{{ .title }}</strong>:</span>
+                        <span class="skill-value">{{ .value | safeHTML }}</span>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Experience</span>
+        </div>
+        <div class="section-content">
+            {{ range $resume.experience }}
+                <div class="experience-item {{ if .pageBreak }}page-break{{ end }} {{ if .pageBegin }}page-begin{{ end }}">
+                    <div class="experience-title">
+                        <span>{{ .title }}</span>
+                        <span><a target="_blank" href="{{ .companyLink }}">{{ .company }}</a></span>
+                        <span>{{ .period }}</span>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            {{ if .description }}
+                                <li>{{ .description | safeHTML }}</li>
+                            {{ end }}
+                            {{ if .keyContributions }}
+                                <li><strong>Key Contributions:</strong>
+                                    <ul>
+                                        {{ range .keyContributions }}
+                                            <li>{{ . | safeHTML }}</li>
+                                        {{ end }}
+                                    </ul>
+                                </li>
+                            {{ end }}
+                            {{ if .responsibilities }}
+                                <li><strong>Responsibilities:</strong>
+                                    <ul>
+                                        {{ range .responsibilities }}
+                                            <li>{{ . | safeHTML }}</li>
+                                        {{ end }}
+                                    </ul>
+                                </li>
+                            {{ end }}
+                            {{ if .techStack }}
+                                <li><strong>Tech stack:</strong> {{ .techStack }}</li>
+                            {{ end }}
+                            {{ if .impact }}
+                                <li><strong>Impact:</strong> {{ .impact | safeHTML }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>AI R&D Highlights</span>
+        </div>
+        <div class="section-content">
+            <p class="note">{{ $resume.aiRnD.note }}</p>
+            <ul>
+                {{ range $resume.aiRnD.highlights }}
+                    <li>{{ . | safeHTML }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Open Source</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{ range $resume.openSource }}
+                    <li>
+                        <b><a target="_blank" href="{{ .link }}">{{ .link }}</a>:</b>
+                        {{ .description }}
+                        {{ if .highlights }}
+                            <ul>
+                                {{ range .highlights }}
+                                    <li>{{ . | safeHTML }}</li>
+                                {{ end }}
+                            </ul>
+                        {{ end }}
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Certifications</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{ range $resume.certifications }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <span>Education</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                {{ range $resume.education }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+</main>
+{{ end }}
