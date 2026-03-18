@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Taleh Ibrahimli",
-    "headline": "Lead Software Engineer (Rust/Go/Java) · Distributed Systems · Performance Engineering · Cloud Platform (AWS)",
+    "headline": "Lead Software Engineer (Rust/Go) · Distributed Systems · Performance Engineering · Cloud Platform (AWS)",
     "social": [
       {
         "icon": "fa-brands fa-linkedin",
@@ -32,7 +32,7 @@
   "skills": [
     {
       "title": "Core Languages",
-      "value": "Rust, C++, Java, Go."
+      "value": "Rust, C++, Go."
     },
     {
       "title": "Systems Programming",
@@ -85,7 +85,7 @@
   ],
   "experience": [
     {
-      "title": "Lead Software Engineer & Technical Lead",
+      "title": "Lead Rust/Go Engineer",
       "company": "2K Group",
       "companyLink": "https://www.2kgroup.com/",
       "period": "July 2022 - Current",
@@ -100,14 +100,15 @@
       "impact": "Delivered critical high-load components while scaling the engineering organization and improving delivery predictability by 80% for the EvenPlay project."
     },
     {
-      "title": "Senior Software Engineer (Security & Platform)",
+      "title": "Senior Software Engineer",
       "company": "BillingPlatform",
+      "pageBreak": true,
       "companyLink": "https://billingplatform.com/",
       "period": "April 2021 - July 2022",
       "description": "Spearheaded the design and implementation of security-first platform features, ensuring FIPS 140-3 compliance for global enterprise clients.",
       "keyContributions": [
         "<b>Security Architecture:</b> Developed and implemented enterprise-grade security protocols using AWS CloudHSM, KMS, and PKI, enabling high-assurance data protection and onboarding of 1 Fortune 500 client requiring FIPS 140-3 Level 3 compliance.",
-        "<b>Platform Scalability:</b> Refined Java/Spring Boot microservices for enterprise-scale billing cycles, achieving XX% reduction in processing time for large-batch jobs processing 10k-100k invoices daily.",
+        "<b>Platform Scalability:</b> Refined microservices for enterprise-scale billing cycles, achieving XX% reduction in processing time for large-batch jobs processing 10k-100k invoices daily.",
         "<b>Identity & Access:</b> Orchestrated a centralized OAuth2/OIDC implementation across the microservices ecosystem, streamlining secure service-to-service communication and resulting in a 2x latency improvement.",
         "<b>Cross-functional Collaboration:</b> Collaborated with 5 cross-functional teams to implement security features and platform enhancements, ensuring seamless integration and improved overall system performance."
       ],
@@ -115,6 +116,7 @@
     },
     {
       "title": "Lead Software Engineer",
+      "pageBegin": true,
       "company": "GoldenPay",
       "companyLink": "https://goldenpay.az/",
       "period": "May 2020 - May 2021",
@@ -122,7 +124,7 @@
       "keyContributions": [
         "<b>Architectural Migration:</b> Orchestrated architectural migration from monolith to microservices, improving system throughput by 7x and handling 2k+ RPS at peak for 1M+ active users.",
         "<b>Strategic Leadership:</b> Managed the engineering team, establishing ADR processes that increased team efficiency by 3x and reduced decision time by 5x, creating a single source of truth for architectural decisions.",
-        "<b>Zero-Downtime Deployment:</b> Designed split-traffic rollout strategies and comprehensive testing suites including unit, integration, and e2e tests using JUnit, Protractor, and Newman to ensure 100% availability during core system migrations.",
+        "<b>Zero-Downtime Deployment:</b> Designed split-traffic rollout strategies and comprehensive testing suites including unit, integration, and e2e tests to ensure 100% availability during core system migrations.",
         "<b>Security Fortification:</b> Fortified system security by implementing robust security protocols, mitigating potential vulnerabilities, and protecting sensitive user data, resulting in a 90% decrease in security incidents."
       ],
       "impact": "Modernized the national payment infrastructure, delivering 7x scaling capabilities and 90% decrease in security incidents with zero downtime during migration."
@@ -134,26 +136,26 @@
       "period": "April 2017 - December 2019",
       "description": "<b>Aurora Portfolio (CxProcess & M1 AlertFind):</b> Drove the modernization of mission-critical alerting and process orchestration systems.",
       "keyContributions": [
-        "<b>API Modernization:</b> Modernized legacy Java applications by architecting a high-level API layer using OpenAPI spec and Spring Boot, accelerating feature iteration by 80%.",
+        "<b>API Modernization:</b> Modernized legacy applications by architecting a high-level API layer using OpenAPI spec, accelerating feature iteration by 80%.",
         "<b>Refactoring & Migration:</b> Refactored backend services to align with new domain boundaries and RESTful API contracts while migrating mission-critical alerting systems, maintaining 99.99% availability.",
         "<b>Cost Optimization:</b> Reduced cloud infrastructure costs by 35% via implementation of resource allocation strategies and automation."
       ],
       "impact": "Modernized mission-critical alerting systems, achieving 80% faster feature iteration and 35% cost savings while maintaining 99.99% availability."
     },
     {
-      "title": "Java Backend Developer",
+      "title": "Backend Developer",
       "company": "Apexx",
       "companyLink": "https://www.apexx.global/",
       "period": "November 2015 - April 2017",
       "impact": "Enhanced backend service stability and delivery reliability through standardized TDD and code quality metrics."
     },
     {
-      "title": "Java Backend Developer",
+      "title": "Backend Developer",
       "company": "Baku State University",
       "companyLink": "http://bsu.edu.az/",
       "period": "January 2014 - November 2015",
       "description": "<b>E-University:</b> Developed the main university platform covering the full academic lifecycle.",
-      "techStack": "Monolithic Java backend, PostgreSQL.",
+      "techStack": "Monolithic backend, PostgreSQL.",
       "impact": "Gained significant knowledge in higher-education processes."
     },
     {

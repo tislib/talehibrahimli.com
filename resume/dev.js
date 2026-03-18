@@ -33,7 +33,7 @@ function renderHtml(jsonPath) {
     }
 }
 
-const jsonArg = process.argv[2] || 'variants/lead.json';
+const jsonArg = process.argv[2] || 'variants/systems.json';
 
 bs.init({
     server: {
