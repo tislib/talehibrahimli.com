@@ -53,6 +53,16 @@
   ],
   "openSource": [
     {
+      "title": "roda-ledger",
+      "link": "https://github.com/tislib/roda-ledger",
+      "description": "A high-performance, durable, and crash-consistent financial ledger and transaction executor built in Rust, tuned for high throughput and low-latency transactional workflows.",
+      "highlights": [
+        "Engineered a pipelined execution model (Core-Per-Stage) using lock-free ArrayQueues to eliminate thread contention and maximize mechanical sympathy.",
+        "Achieved a peak throughput of 2.79 Million transactions per second (tx/s) for deposits and 1.70 Million tx/s for transfers with sub-microsecond average latency.",
+        "Implemented strict durability via Write-Ahead Logging (WAL) and automatic state recovery through snapshot loading and WAL replay."
+      ]
+    },
+    {
       "title": "apibrew",
       "link": "https://github.com/apibrew/apibrew",
       "description": "An open-source low-code backend-as-a-service that automatically generates REST/gRPC APIs and real-time event streams from data models."

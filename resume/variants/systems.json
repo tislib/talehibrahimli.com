@@ -81,15 +81,6 @@
       "title": "logi",
       "link": "https://github.com/tislib/logi",
       "description": "A framework for defining and parsing custom Domain Specific Languages (DSLs) with efficient AST generation and semantic validation."
-    },
-    {
-      "title": "Algorithmic Trading Research",
-      "link": "#",
-      "description": "Developed a high-performance backtesting and strategy tester for research purposes, optimized for ultra-low latency execution and large-scale data analysis.",
-      "highlights": [
-        "Engineered a discrete-event backtesting engine in C++ achieving sub-microsecond event processing times.",
-        "Designed flexible strategy interfaces in Python for rapid research iteration without sacrificing execution performance."
-      ]
     }
   ],
   "experience": [
