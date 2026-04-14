@@ -25,7 +25,9 @@
                     {{/if}}
                 </span>
             {{/each}}
-            <span class="location">{{profile.location}}</span>
+            {{#if profile.location}}
+                <span class="location">{{profile.location}}</span>
+            {{/if}}
         </div>
     </header>
     {{#if summary}}

@@ -9,10 +9,6 @@
         "text": "in/talehibrahimli"
       },
       {
-        "icon": "fa-solid fa-mobile",
-        "text": "+34600857686"
-      },
-      {
         "icon": "fa-solid fa-safari",
         "link": "https://talehibrahimli.com",
         "text": "talehibrahimli.com"
@@ -26,8 +22,7 @@
         "link": "https://github.com/tislib",
         "text": "github.com/tislib"
       }
-    ],
-    "location": "Barcelona, Spain (Open to relocate)"
+    ]
   },
   "skills": [
     {
@@ -40,7 +35,7 @@
     },
     {
       "title": "Distributed Systems",
-      "value": "Microservices, gRPC, Event-driven, Kafka, Redis, PostgreSQL, DynamoDB."
+      "value": "Microservices, gRPC, Event-driven, Kafka, Redis, PostgreSQL, DynamoDB, Neo4j."
     },
     {
       "title": "Cloud & DevOps (AWS)",
@@ -171,6 +166,7 @@
   "aiRnD": {
     "note": "The following represent prototypes/experiments and architectural research (not shipped production systems).",
     "highlights": [
+      "Designed Graph-RAG architectures using Neo4j and Cypher to handle multi-hop retrieval and complex entity relationships in Knowledge Graphs.",
       "Developed cost-latency trade-off models for RAG pipelines, achieving a 30% reduction in token usage through refined prompt design and guardrails.",
       "Designed agentic workflows with LangGraph and custom-built workflow systems; tuned hybrid retrieval (MongoDB/pgvector) and re-ranking layers.",
       "Established evaluation frameworks for LLM safety: scenario-based A/B testing, hallucination mitigation patterns, and OpenTelemetry-based observability."
