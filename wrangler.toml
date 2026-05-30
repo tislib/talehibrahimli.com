@@ -5,6 +5,11 @@
 name = "talehibrahimli-com"
 compatibility_date = "2025-05-31"
 
+# Build the Hugo site before assets are collected. Runs both locally
+# (`wrangler deploy`) and in Cloudflare's CI, so ./public always exists.
+[build]
+command = "hugo --minify"
+
 [assets]
 directory = "./public"
 # Serve Hugo's generated 404.html for any unmatched path.

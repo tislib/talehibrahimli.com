@@ -5,8 +5,8 @@
   "description": "Personal website (Hugo) deployed to Cloudflare Workers static assets.",
   "scripts": {
     "build": "hugo --minify",
-    "preview": "hugo --minify && wrangler dev",
-    "deploy": "hugo --minify && wrangler deploy"
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^4"
