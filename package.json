@@ -1,0 +1,14 @@
+{
+  "name": "talehibrahimli-com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal website (Hugo) deployed to Cloudflare Workers static assets.",
+  "scripts": {
+    "build": "hugo --minify",
+    "preview": "hugo --minify && wrangler dev",
+    "deploy": "hugo --minify && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

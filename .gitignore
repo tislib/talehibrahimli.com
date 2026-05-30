@@ -3,3 +3,8 @@
 _gen
 /public
 .hugo_build.lock
+
+# Node / Cloudflare Wrangler
+/node_modules
+.wrangler
+.dev.vars

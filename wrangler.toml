@@ -1,0 +1,11 @@
+# Cloudflare Workers — static asset hosting for the Hugo site.
+# Deploy with:  hugo --minify && npx wrangler deploy
+# (Hugo builds into ./public, which Wrangler uploads as static assets.)
+
+name = "talehibrahimli-com"
+compatibility_date = "2025-05-31"
+
+[assets]
+directory = "./public"
+# Serve Hugo's generated 404.html for any unmatched path.
+not_found_handling = "404-page"
